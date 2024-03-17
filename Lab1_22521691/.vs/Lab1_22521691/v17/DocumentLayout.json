@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\properties\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\properties\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "customButton.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Properties\\customButton.cs",
-              "RelativeDocumentMoniker": "Lab1_22521691\\Properties\\customButton.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Properties\\customButton.cs",
-              "RelativeToolTip": "Lab1_22521691\\Properties\\customButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T16:35:11.775Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -51,20 +34,7 @@
               "RelativeToolTip": "Lab1_22521691\\MainForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T16:24:49.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\MainForm.cs",
-              "RelativeDocumentMoniker": "Lab1_22521691\\MainForm.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\MainForm.cs",
-              "RelativeToolTip": "Lab1_22521691\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T16:18:41.776Z",
+              "WhenOpened": "2024-03-17T14:29:15.218Z",
               "EditorCaption": ""
             },
             {
@@ -78,6 +48,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T16:15:34.996Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\MainForm.cs",
+              "RelativeDocumentMoniker": "Lab1_22521691\\MainForm.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\MainForm.cs",
+              "RelativeToolTip": "Lab1_22521691\\MainForm.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T16:18:41.776Z",
+              "EditorCaption": ""
             }
           ]
         }
