@@ -47,7 +47,7 @@ namespace Lab1_22521691
         private void switch_to_task5(object sender, EventArgs e)
         {
             this.Hide();
-            Task5 t5 = new Task5();
+            buyBtn t5 = new buyBtn();
             t5.ShowDialog();
             this.Close();
         }

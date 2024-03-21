@@ -59,5 +59,15 @@ namespace Lab1_22521691.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6b74500d9bf37a1b74d92b376dacb13f {
+            get {
+                object obj = ResourceManager.GetObject("6b74500d9bf37a1b74d92b376dacb13f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
