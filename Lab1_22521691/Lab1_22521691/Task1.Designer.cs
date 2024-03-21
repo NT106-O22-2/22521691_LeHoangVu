@@ -130,6 +130,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "Task1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tính tổng 2 số nguyên";
             ResumeLayout(false);
             PerformLayout();

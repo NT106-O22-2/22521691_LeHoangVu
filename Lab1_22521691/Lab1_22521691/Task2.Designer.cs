@@ -188,6 +188,7 @@
             Controls.Add(exit);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "Task2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Số lớn nhất, nhỏ nhất";
             ResumeLayout(false);
             PerformLayout();

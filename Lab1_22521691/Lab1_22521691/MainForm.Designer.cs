@@ -149,6 +149,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "MainForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Lab01";
             Load += MainForm_Load;
             ResumeLayout(false);
