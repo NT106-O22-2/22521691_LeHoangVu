@@ -84,6 +84,16 @@ namespace Lab1_22521691.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap desktop_wallpaper_dank_meme {
+            get {
+                object obj = ResourceManager.GetObject("desktop-wallpaper-dank-meme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_cute_hand_drawn_style_mathematics_education_pink_plaid_background_image_337364 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_3" +

@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="astrology-wheel-with-zodiac-signs-on-outer-space-background-mystery-and-esoteric-star-map-horoscope-illustration-spiritual-tarot-poster-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\astrology-wheel-with-zodiac-signs-on-outer-space-background-mystery-and-esoteric-star-map-horoscope-illustration-spiritual-tarot-poster-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="6b74500d9bf37a1b74d92b376dacb13f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6b74500d9bf37a1b74d92b376dacb13f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="astrology-wheel-with-zodiac-signs-on-outer-space-background-mystery-and-esoteric-star-map-horoscope-illustration-spiritual-tarot-poster-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\astrology-wheel-with-zodiac-signs-on-outer-space-background-mystery-and-esoteric-star-map-horoscope-illustration-spiritual-tarot-poster-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="desktop-wallpaper-dank-meme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desktop-wallpaper-dank-meme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

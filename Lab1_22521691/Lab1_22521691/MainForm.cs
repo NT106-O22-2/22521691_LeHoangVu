@@ -71,8 +71,8 @@ namespace Lab1_22521691
         private void switch_to_task8(object sender, EventArgs e)
         {
             this.Hide();
-            Task7 t7 = new Task7();
-            t7.ShowDialog();
+            Task8 t8 = new Task8();
+            t8.ShowDialog();
             this.Close();
         }
 

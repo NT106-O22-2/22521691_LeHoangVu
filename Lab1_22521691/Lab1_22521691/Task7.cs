@@ -54,9 +54,8 @@ namespace Lab1_22521691
             //1: dữ liệu đúng
             //0: ngày k hợp lệ
             //-1: sai format
+            if (input.Length != 10) return -1;
             Regex regex = new Regex("^[0-9]$");
-            //if (input[2] == '/' || input[2] == '-') return 0;
-            //return -1;
             if (regex.IsMatch(input[0].ToString()) && regex.IsMatch(input[1].ToString()) && (input[2] == '/' || input[2] == '-') &&
                 regex.IsMatch(input[3].ToString()) && regex.IsMatch(input[4].ToString()) && (input[5] == '/' || input[5] == '-') &&
                 regex.IsMatch(input[6].ToString()) && regex.IsMatch(input[7].ToString()) && 

@@ -47,7 +47,7 @@ namespace Lab1_22521691
             if (numB >= numA)
             {
                 for (int i = 1; i <= 10; i++) 
-                    result += numC + " * " + i + " = " + (numC * i) + "\n";
+                    result += "   " + numC + " * " + i + " = " + (numC * i) + "\n";
             }
             else result += "Không khả thi!";
             return result;
