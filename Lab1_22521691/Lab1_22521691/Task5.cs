@@ -10,8 +10,6 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Lab1_22521691
-
-
 {
     public partial class buyBtn : Form
     {

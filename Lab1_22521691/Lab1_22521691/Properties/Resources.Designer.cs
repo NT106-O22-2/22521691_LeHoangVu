@@ -69,5 +69,27 @@ namespace Lab1_22521691.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap astrology_wheel_with_zodiac_signs_on_outer_space_background_mystery_and_esoteric_star_map_horoscope_illustration_spiritual_tarot_poster_vector {
+            get {
+                object obj = ResourceManager.GetObject("astrology-wheel-with-zodiac-signs-on-outer-space-background-mystery-and-esoteric-" +
+                        "star-map-horoscope-illustration-spiritual-tarot-poster-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_cute_hand_drawn_style_mathematics_education_pink_plaid_background_image_337364 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_3" +
+                        "37364", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

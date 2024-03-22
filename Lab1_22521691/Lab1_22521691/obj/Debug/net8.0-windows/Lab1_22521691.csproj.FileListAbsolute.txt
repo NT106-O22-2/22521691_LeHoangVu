@@ -20,8 +20,8 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task2.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task3.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task4.resources
-D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task5.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task6.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task7.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task8.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.Task9.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab1_22521691\Lab1_22521691\obj\Debug\net8.0-windows\Lab1_22521691.buyBtn.resources
