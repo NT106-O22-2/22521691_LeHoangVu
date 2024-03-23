@@ -63,6 +63,16 @@ namespace Lab1_22521691.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3002901064766918544650287927959461302013096n_1675409285718950815893 {
+            get {
+                object obj = ResourceManager.GetObject("3002901064766918544650287927959461302013096n-1675409285718950815893", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6b74500d9bf37a1b74d92b376dacb13f {
             get {
                 object obj = ResourceManager.GetObject("6b74500d9bf37a1b74d92b376dacb13f", resourceCulture);
@@ -87,6 +97,16 @@ namespace Lab1_22521691.Properties {
         internal static System.Drawing.Bitmap desktop_wallpaper_dank_meme {
             get {
                 object obj = ResourceManager.GetObject("desktop-wallpaper-dank-meme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

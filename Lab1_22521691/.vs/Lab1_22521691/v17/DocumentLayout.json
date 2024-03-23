@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\task9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\task9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab1_22521691\\lab1_22521691\\task9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{071051A9-29E6-4B3C-A1B7-ADB74EE712A7}|Lab1_22521691\\Lab1_22521691.csproj|solutionrelative:lab1_22521691\\task9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Task2.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task2.cs",
-              "RelativeDocumentMoniker": "Lab1_22521691\\Task2.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task2.cs",
-              "RelativeToolTip": "Lab1_22521691\\Task2.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T16:28:32.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Task8.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task8.cs",
-              "RelativeDocumentMoniker": "Lab1_22521691\\Task8.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task8.cs [Design]",
-              "RelativeToolTip": "Lab1_22521691\\Task8.cs [Design]",
+              "Title": "Task9.cs",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task9.cs",
+              "RelativeDocumentMoniker": "Lab1_22521691\\Task9.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task9.cs",
+              "RelativeToolTip": "Lab1_22521691\\Task9.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA7wDoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:33:45.869Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-23T08:28:02.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task8.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task8.cs",
-              "RelativeDocumentMoniker": "Lab1_22521691\\Task8.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task8.cs",
-              "RelativeToolTip": "Lab1_22521691\\Task8.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAD4v0oAAACjAAAA",
+              "Title": "Task9.cs [Design]",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task9.cs",
+              "RelativeDocumentMoniker": "Lab1_22521691\\Task9.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab1_22521691\\Lab1_22521691\\Task9.cs [Design]",
+              "RelativeToolTip": "Lab1_22521691\\Task9.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T15:17:28.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T08:27:58.312Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

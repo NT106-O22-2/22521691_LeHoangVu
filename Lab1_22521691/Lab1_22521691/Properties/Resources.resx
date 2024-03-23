@@ -127,7 +127,13 @@
   <data name="pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="desktop-wallpaper-dank-meme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\desktop-wallpaper-dank-meme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3002901064766918544650287927959461302013096n-1675409285718950815893" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3002901064766918544650287927959461302013096n-1675409285718950815893.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

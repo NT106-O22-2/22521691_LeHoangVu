@@ -107,7 +107,8 @@
             inforLB.ForeColor = SystemColors.ButtonFace;
             inforLB.Location = new Point(340, 115);
             inforLB.Name = "inforLB";
-            inforLB.Size = new Size(448, 326);
+            inforLB.Padding = new Padding(0, 0, 0, 5);
+            inforLB.Size = new Size(448, 355);
             inforLB.TabIndex = 12;
             // 
             // Task8
@@ -115,7 +116,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 477);
             Controls.Add(inforLB);
             Controls.Add(insertBtn);
             Controls.Add(button1);
