@@ -42,6 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(72, 83);
             label1.Name = "label1";
             label1.Size = new Size(110, 33);
@@ -60,6 +61,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonFace;
             label2.Location = new Point(72, 173);
             label2.Name = "label2";
             label2.Size = new Size(110, 33);
@@ -70,6 +72,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.ButtonFace;
             label3.Location = new Point(72, 307);
             label3.Name = "label3";
             label3.Size = new Size(101, 33);
@@ -95,30 +98,43 @@
             // 
             // calculated
             // 
-            calculated.Font = new Font("Times New Roman", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            calculated.Location = new Point(286, 240);
+            calculated.BackColor = Color.Transparent;
+            calculated.FlatAppearance.BorderColor = Color.Green;
+            calculated.FlatAppearance.BorderSize = 4;
+            calculated.FlatAppearance.MouseDownBackColor = Color.FromArgb(128, 255, 128);
+            calculated.FlatAppearance.MouseOverBackColor = Color.FromArgb(192, 255, 192);
+            calculated.FlatStyle = FlatStyle.Flat;
+            calculated.Font = new Font("Times New Roman", 16.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            calculated.ForeColor = SystemColors.ButtonFace;
+            calculated.Location = new Point(210, 234);
             calculated.Name = "calculated";
             calculated.Size = new Size(121, 48);
             calculated.TabIndex = 6;
             calculated.Text = "Tính";
-            calculated.UseVisualStyleBackColor = true;
+            calculated.UseVisualStyleBackColor = false;
             calculated.Click += caculate_button;
             // 
             // button2
             // 
-            button2.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(12, 12);
+            button2.BackColor = Color.Transparent;
+            button2.FlatAppearance.BorderColor = Color.Green;
+            button2.FlatAppearance.BorderSize = 4;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Times New Roman", 16.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ButtonFace;
+            button2.Location = new Point(350, 234);
             button2.Name = "button2";
-            button2.Size = new Size(90, 41);
+            button2.Size = new Size(114, 48);
             button2.TabIndex = 7;
             button2.Text = "Thoát";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += exit_button;
             // 
             // Task1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme2;
             ClientSize = new Size(655, 410);
             Controls.Add(button2);
             Controls.Add(calculated);
@@ -132,6 +148,7 @@
             Name = "Task1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tính tổng 2 số nguyên";
+            Load += load;
             ResumeLayout(false);
             PerformLayout();
         }

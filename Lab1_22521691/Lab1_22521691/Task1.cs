@@ -17,14 +17,23 @@ namespace Lab1_22521691
         {
             InitializeComponent();
         }
+        private void load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label2.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label3.BackColor = Color.FromArgb(50, 0, 0, 0);
+
+        }
 
         private void exit_button(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn có muốn thoát?", "Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Question);
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void caculate_button(object sender, EventArgs e)
@@ -39,5 +48,7 @@ namespace Lab1_22521691
             }
             else MessageBox.Show("Vui lòng nhập số nguyên", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        
     }
 }

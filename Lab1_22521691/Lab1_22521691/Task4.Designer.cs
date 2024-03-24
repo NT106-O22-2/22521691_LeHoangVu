@@ -31,10 +31,10 @@
             exitBtn = new Button();
             deleteBtn = new Button();
             readBtn = new Button();
-            result = new TextBox();
             label2 = new Label();
             input = new TextBox();
             label1 = new Label();
+            resultLB = new Label();
             SuspendLayout();
             // 
             // exitBtn
@@ -70,24 +70,17 @@
             readBtn.UseVisualStyleBackColor = true;
             readBtn.Click += read_clicked;
             // 
-            // result
-            // 
-            result.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            result.Location = new Point(42, 275);
-            result.Name = "result";
-            result.ReadOnly = true;
-            result.Size = new Size(571, 36);
-            result.TabIndex = 19;
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(42, 232);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Times New Roman", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonFace;
+            label2.Location = new Point(42, 210);
             label2.Name = "label2";
-            label2.Size = new Size(92, 29);
+            label2.Size = new Size(106, 29);
             label2.TabIndex = 18;
-            label2.Text = "Kết quả";
+            label2.Text = "Kết quả:";
             // 
             // input
             // 
@@ -100,21 +93,35 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Times New Roman", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(42, 109);
             label1.Name = "label1";
-            label1.Size = new Size(220, 29);
+            label1.Size = new Size(236, 29);
             label1.TabIndex = 16;
-            label1.Text = "Nhập vào số nguyên";
+            label1.Text = "Nhập vào số nguyên:";
+            // 
+            // resultLB
+            // 
+            resultLB.BackColor = Color.White;
+            resultLB.FlatStyle = FlatStyle.Flat;
+            resultLB.Font = new Font("Times New Roman", 15F);
+            resultLB.ForeColor = SystemColors.ActiveCaptionText;
+            resultLB.Location = new Point(42, 248);
+            resultLB.Name = "resultLB";
+            resultLB.Size = new Size(571, 165);
+            resultLB.TabIndex = 22;
             // 
             // Task4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme5;
             ClientSize = new Size(667, 422);
+            Controls.Add(resultLB);
             Controls.Add(deleteBtn);
             Controls.Add(readBtn);
-            Controls.Add(result);
             Controls.Add(label2);
             Controls.Add(input);
             Controls.Add(label1);
@@ -123,6 +130,7 @@
             Name = "Task4";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đọc số nâng cao";
+            Load += load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -132,9 +140,9 @@
         private Button exitBtn;
         private Button deleteBtn;
         private Button readBtn;
-        private TextBox result;
         private Label label2;
         private TextBox input;
         private Label label1;
+        private Label resultLB;
     }
 }

@@ -20,11 +20,13 @@ namespace Lab1_22521691
 
         private void exit_clicked(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void clear_clicked(object sender, EventArgs e)
@@ -60,24 +62,27 @@ namespace Lab1_22521691
             if (numC >= 0)
             {
                 int numResult = 1;
-                for (int i = 2; i < numC; i++)
+                for (int i = 2; i <= numC; i++)
                     numResult *= i;
                 result += numResult;
             } else result += "Không khả thi!";
             result += "\n";
             result += "S = A^1 + A^2 + ... + A^B = ";
-            int rsNum = 0;
-            for (int i = 1; i <= numB; i++)
-            {
-                rsNum += (int)Math.Pow(numA, i);
-            }
+            double rsNum = 0;
+            if (numB > 0)
+                for (int i = 1; i <= numB; i++)
+                    rsNum += Math.Pow(numA, i);
+            else if (numB == 0) rsNum = 1;
+            else if (numB < 0)
+                for (int i = -1; i >= numB; i--)
+                    rsNum += Math.Pow(numA, i);
             result += rsNum;
             return result;
         }
 
         private void cal_clicked(object sender, EventArgs e)
         {
-            Regex regex = new Regex("^\\d+$");
+            Regex regex = new Regex("^[+-]?[1-9]\\d*$");
             if (regex.IsMatch(firstNum.Text) && regex.IsMatch(secondNum.Text)) 
             {
                 int numA = Convert.ToInt32(firstNum.Text), numB = Convert.ToInt32(secondNum.Text);

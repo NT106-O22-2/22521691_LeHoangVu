@@ -51,7 +51,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(36, 89);
             label1.Name = "label1";
             label1.Size = new Size(326, 29);
@@ -69,7 +71,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonFace;
             label2.Location = new Point(36, 210);
             label2.Name = "label2";
             label2.Size = new Size(92, 29);
@@ -111,6 +115,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme4;
             ClientSize = new Size(663, 418);
             Controls.Add(deleteBtn);
             Controls.Add(readBtn);
@@ -123,6 +128,7 @@
             Name = "Task3";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đọc số";
+            Load += load;
             ResumeLayout(false);
             PerformLayout();
         }

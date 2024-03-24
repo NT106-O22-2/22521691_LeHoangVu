@@ -57,7 +57,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(30, 87);
             label1.Name = "label1";
             label1.Size = new Size(119, 26);
@@ -67,7 +69,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonFace;
             label2.Location = new Point(30, 149);
             label2.Name = "label2";
             label2.Size = new Size(107, 26);
@@ -77,7 +81,9 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.ButtonFace;
             label3.Location = new Point(30, 211);
             label3.Name = "label3";
             label3.Size = new Size(101, 26);
@@ -110,10 +116,10 @@
             // 
             // findBtn
             // 
-            findBtn.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            findBtn.Location = new Point(30, 285);
+            findBtn.Font = new Font("Times New Roman", 16.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            findBtn.Location = new Point(42, 285);
             findBtn.Name = "findBtn";
-            findBtn.Size = new Size(107, 35);
+            findBtn.Size = new Size(119, 46);
             findBtn.TabIndex = 15;
             findBtn.Text = "Tìm";
             findBtn.UseVisualStyleBackColor = true;
@@ -121,10 +127,12 @@
             // 
             // deleteBtn
             // 
-            deleteBtn.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            deleteBtn.FlatAppearance.BorderColor = Color.FromArgb(255, 224, 192);
+            deleteBtn.FlatStyle = FlatStyle.Flat;
+            deleteBtn.Font = new Font("Times New Roman", 16.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             deleteBtn.Location = new Point(182, 285);
             deleteBtn.Name = "deleteBtn";
-            deleteBtn.Size = new Size(107, 35);
+            deleteBtn.Size = new Size(125, 46);
             deleteBtn.TabIndex = 16;
             deleteBtn.Text = "Xóa";
             deleteBtn.UseVisualStyleBackColor = true;
@@ -133,7 +141,9 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.ButtonFace;
             label4.Location = new Point(465, 92);
             label4.Name = "label4";
             label4.Size = new Size(119, 26);
@@ -161,7 +171,9 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = SystemColors.ButtonFace;
             label5.Location = new Point(465, 195);
             label5.Name = "label5";
             label5.Size = new Size(125, 26);
@@ -172,6 +184,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme3;
             ClientSize = new Size(659, 414);
             Controls.Add(minNum);
             Controls.Add(label5);
@@ -190,6 +203,7 @@
             Name = "Task2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Số lớn nhất, nhỏ nhất";
+            Load += load;
             ResumeLayout(false);
             PerformLayout();
         }

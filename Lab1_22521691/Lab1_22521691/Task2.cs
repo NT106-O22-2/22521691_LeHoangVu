@@ -21,22 +21,24 @@ namespace Lab1_22521691
 
         private void exit_button(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void find_num(object sender, EventArgs e)
         {
             Regex regex = new Regex("^[+-]?[0-9]+(\\.[0-9]+)?$");
-            if (regex.IsMatch(firstNum.Text) &&  regex.IsMatch(secondNum.Text) && regex.IsMatch(thirdNum.Text) )
+            if (regex.IsMatch(firstNum.Text) && regex.IsMatch(secondNum.Text) && regex.IsMatch(thirdNum.Text))
             {
                 float num1 = Convert.ToSingle(firstNum.Text);
                 float num2 = Convert.ToSingle(secondNum.Text);
                 float num3 = Convert.ToSingle(thirdNum.Text);
-                float min = num1, max = num2;
+                float min = num1, max = num1;
 
                 if (min > num2) min = num2;
                 else if (num2 > max) max = num2;
@@ -58,6 +60,15 @@ namespace Lab1_22521691
             thirdNum.Clear();
             maxNum.Clear();
             minNum.Clear();
+        }
+
+        private void load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label2.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label3.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label4.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label5.BackColor = Color.FromArgb(50, 0, 0, 0);
         }
     }
 }

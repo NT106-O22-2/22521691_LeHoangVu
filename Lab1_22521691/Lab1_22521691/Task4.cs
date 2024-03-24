@@ -21,50 +21,109 @@ namespace Lab1_22521691
         }
         private void exit_clicked(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void read_clicked(object sender, EventArgs e)
         {
             Regex regex = new Regex("^[0-9]\\d*$");
-            if(regex.IsMatch(input.Text))
+            if (regex.IsMatch(input.Text))
             {
                 string text = input.Text;
                 string resultTxt = "";
+                string reverseNum = "";
                 if (text.Length <= 12)
                 {
                     for (int i = text.Length - 1; i >= 0; i--)
                     {
-                        if (text[i] == '0' && i == 0) {
-                            /*Nếu số ban đầu là 0 thì không đọc số đó*/
-                            if (text.Length == 1)
-                            {   //Trường hợp chỉ nhập số 0
-                                resultTxt = "Không";
-                                result.Text = resultTxt;
-                                return;
-                            }
-                        }
+                        reverseNum += text[i];
+                    }
+                    for (int i = 0; i < reverseNum.Length; i++)
+                    {
+                        if (reverseNum[i] == '0' && resultTxt == "") { }  //Spam 0 thì vẫn nhận kết quả là 0
                         else
                         {
-                            int num = text[i] - 48;
-                            String numCr = nums[num];
-                            String unitCr = units[text.Length - i - 1];
+                            if (reverseNum[i] == '0')
+                            {
+                                if (i == 2)
+                                    resultTxt = "Không Trăm " + resultTxt;
+                                else if (i % 3 == 1 && (reverseNum[i + 1] != '0' || i == 1))
+                                    resultTxt = "Lẻ " + resultTxt;
+                                else if (i % 3 == 0)
+                                {
+                                    switch (i / 3)
+                                    {
+                                        case 1:
+                                            resultTxt = "Nghìn " + resultTxt;
+                                            break;
+                                        case 2:
+                                            resultTxt = "Triệu " + resultTxt;
+                                            break;
+                                        case 3:
+                                            resultTxt = "Tỷ " + resultTxt;
+                                            break;
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (i % 3 == 1)
+                                {
+                                    if (reverseNum[i] != '1')
+                                        resultTxt = "Mươi " + resultTxt;
+                                    else
+                                    {
+                                        resultTxt = "Mười " + resultTxt;
+                                        continue;
+                                    }
+
+                                }
+                                else if (i % 3 == 2)
+                                    resultTxt = "Trăm " + resultTxt;
+                                else if (i % 3 == 0)
+                                {
+                                    switch (i / 3)
+                                    {
+                                        case 1:
+                                            resultTxt = "Nghìn " + resultTxt;
+                                            break;
+                                        case 2:
+                                            resultTxt = "Triệu " + resultTxt;
+                                            break;
+                                        case 3:
+                                            resultTxt = "Tỷ " + resultTxt;
+                                            break;
+                                    }
+                                }
+                                resultTxt = nums[(int)reverseNum[i] - 48] + " " + resultTxt;
+                            }
                         }
-                     }
-                    resultTxt = resultTxt.Substring(0, resultTxt.Length - 1);
-                    result.Text = resultTxt;
-                } else MessageBox.Show("Vui lòng nhập số nguyên dưới 12 chữ số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            } else MessageBox.Show("Vui lòng nhập số nguyên dương", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    if (resultTxt != "")
+                        resultLB.Text = resultTxt;
+                    else resultLB.Text = "Không";
+                }
+                else MessageBox.Show("Vui lòng nhập số nguyên dưới 12 chữ số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else MessageBox.Show("Vui lòng nhập số nguyên dương", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void clear_clicked(object sender, EventArgs e)
         {
             input.Clear();
-            result.Clear();
+            resultLB.Text = "";
+        }
+
+        private void load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.FromArgb(50, 0, 0, 0);
+            label2.BackColor = Color.FromArgb(50, 0, 0, 0);
         }
     }
 }

@@ -27,16 +27,19 @@ namespace Lab1_22521691
 
         private void exit_clicked(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void clear_clicked(object sender, EventArgs e)
         {
-            inforLB.Refresh();
+            inforLB.Text = "";
+            resultTB.Clear();
             insertTB.Clear();
         }
 

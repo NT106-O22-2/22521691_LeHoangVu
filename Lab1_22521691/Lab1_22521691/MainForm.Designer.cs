@@ -137,6 +137,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.desktop_wallpaper_dank_meme1;
             ClientSize = new Size(728, 409);
             Controls.Add(button9);
             Controls.Add(button7);
