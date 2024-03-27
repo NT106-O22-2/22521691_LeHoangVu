@@ -1,0 +1,11 @@
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\Lab2_22521691.exe.config
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\Lab2_22521691.exe
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\Lab2_22521691.pdb
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.csproj.AssemblyReference.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.MainForm.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Properties.Resources.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.csproj.GenerateResource.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.csproj.CoreCompileInputs.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.exe
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.pdb
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Task1.resources
