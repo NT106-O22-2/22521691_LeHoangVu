@@ -9,3 +9,4 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.exe
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.pdb
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Task1.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Task2.resources

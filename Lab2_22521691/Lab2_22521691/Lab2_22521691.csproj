@@ -112,6 +112,9 @@
     <EmbeddedResource Include="Task1.resx">
       <DependentUpon>Task1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Task2.resx">
+      <DependentUpon>Task2.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -142,6 +145,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Task11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task21.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

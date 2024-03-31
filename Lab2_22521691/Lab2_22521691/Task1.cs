@@ -25,21 +25,29 @@ namespace Lab2_22521691
 
         private void readFileBtn_Click(object sender, EventArgs e)
         {
-            StreamWriter write = new StreamWriter(fileName.Text, true);
-            write.WriteLine(fileData.Text);
-            write.Close();
+            fileData.Clear();
+            try
+            {
+                StreamReader read = new StreamReader(fileName.Text);
+                fileData.Text = read.ReadToEnd();
+                read.Close();
+            } catch 
+            {
+                MessageBox.Show("File không tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void writeFileBtn_Click(object sender, EventArgs e)
         {
-            StreamReader read = new StreamReader(fileName.Text);
-            fileData.Text = read.ReadToEnd();
-            read.Close();
+            StreamWriter write = new StreamWriter(fileName.Text, true);
+            write.WriteLine(fileData.Text);
+            //File.WriteAllText(fileName.Text, fileData.Text);
+            write.Close();
         }
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            if (MessageBox("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == )
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Hide();
                 MainForm mf = new MainForm();
