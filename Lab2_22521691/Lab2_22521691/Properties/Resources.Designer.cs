@@ -63,36 +63,6 @@ namespace Lab2_22521691.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _214 {
-            get {
-                object obj = ResourceManager.GetObject("214", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2141 {
-            get {
-                object obj = ResourceManager.GetObject("2141", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2150800355 {
-            get {
-                object obj = ResourceManager.GetObject("2150800355", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap MainForm {
             get {
                 object obj = ResourceManager.GetObject("MainForm", resourceCulture);
@@ -103,39 +73,9 @@ namespace Lab2_22521691.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Task1 {
+        internal static System.Drawing.Bitmap Task3 {
             get {
-                object obj = ResourceManager.GetObject("Task1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Task11 {
-            get {
-                object obj = ResourceManager.GetObject("Task11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Task2 {
-            get {
-                object obj = ResourceManager.GetObject("Task2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Task21 {
-            get {
-                object obj = ResourceManager.GetObject("Task21", resourceCulture);
+                object obj = ResourceManager.GetObject("Task3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

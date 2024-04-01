@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Task2));
             this.readFileBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.fileName = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.fileLineCount = new System.Windows.Forms.TextBox();
             this.fileWordCount = new System.Windows.Forms.TextBox();
             this.fileCharCount = new System.Windows.Forms.TextBox();
+            this.fileData = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // readFileBtn
@@ -136,13 +138,30 @@
             this.fileCharCount.TabIndex = 7;
             this.fileCharCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // fileData
+            // 
+            this.fileData.AllowDrop = true;
+            this.fileData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.fileData.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.fileData.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileData.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.fileData.Location = new System.Drawing.Point(417, 66);
+            this.fileData.Multiline = true;
+            this.fileData.Name = "fileData";
+            this.fileData.ReadOnly = true;
+            this.fileData.Size = new System.Drawing.Size(476, 395);
+            this.fileData.TabIndex = 8;
+            this.fileData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // Task2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Lab2_22521691.Properties.Resources.Task21;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(918, 547);
+            this.Controls.Add(this.fileData);
             this.Controls.Add(this.fileCharCount);
             this.Controls.Add(this.fileWordCount);
             this.Controls.Add(this.fileLineCount);
@@ -170,5 +189,6 @@
         private System.Windows.Forms.TextBox fileLineCount;
         private System.Windows.Forms.TextBox fileWordCount;
         private System.Windows.Forms.TextBox fileCharCount;
+        private System.Windows.Forms.TextBox fileData;
     }
 }
