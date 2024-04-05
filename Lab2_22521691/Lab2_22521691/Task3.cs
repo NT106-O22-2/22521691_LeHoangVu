@@ -40,28 +40,89 @@ namespace Lab2_22521691
 
         }
 
-        private double result_Cal(string lineData)
+        private float result_Cal(string lineData)
         {
-            Regex regex = new Regex("^[0-9]+$");
+            float result;
+            Regex regex = new Regex("[0-9]+$");
             if (lineData == "" && regex.IsMatch(lineData[0].ToString()))
                 throw new Exception("Lỗi định dạng!");
 
-            double result;
-            if (double.TryParse(lineData, out result))
-                return result;
-            else
-                throw new Exception("Lỗi định dạng");
+            int i = 0;
+            bool dot = false;
+            string num = "";    //Lưu số
+            char sign = '\0';        //Lưu phép tính
+
+            while (lineData[i] != ' ' && lineData[i] != '\r')   //Kiểm tra số đầu tiên
+            {
+                if (regex.IsMatch(lineData[i].ToString()))
+                    num += lineData[i];
+                else if (lineData[i] == '.')
+                    num += lineData[i];
+                else throw new Exception("Lỗi định dạng!");
+                i++;
+            }
+            result = float.Parse(num);
+            num = "";
+
+            float numConvert;
+            while (i < lineData.Length - 1)     //Kiểm tra định dạng có đúng kiểu num1 <sign> num2 <sign> ... <sign> numN không 
+            {
+                if (regex.IsMatch(lineData[i].ToString()))
+                    num += lineData[i];
+                else if (lineData[i] == '.')
+                    if (!dot)
+                    {
+                        num += lineData[i];
+                        dot = true;
+                    }
+                    else throw new Exception("Lỗi định dạng!");
+                else if (lineData[i] == ' ')
+                {
+                    if (sign != '\0')
+                    {
+                        numConvert = float.Parse(num);
+                        switch(sign)
+                        {
+                            case '+':
+                                result += numConvert; 
+                                break;
+                            case '-':
+                                result -= numConvert;
+                                break;
+                            case '*':
+                                result *= numConvert;
+                                break;
+                            case '/':
+                                result /= numConvert;
+                                break;
+                        }
+                        num = "";
+                    }
+                    if (lineData[i + 2] == ' ' && (lineData[i + 1] == '+' || lineData[i + 1] == '-' || lineData[i + 1] == '*' || lineData[i + 1] == '/'))
+                    {
+                        sign = lineData[i + 1];
+                        dot = false;
+                    }      
+                    else throw new Exception("Lỗi định dạng!");
+                    i += 2;
+                }
+                else throw new Exception("Lỗi định dạng!");
+                i++;
+            }
+
+            //Thực hiện phép tính
+            return result;
         }
 
         void reCallInput()
         {
-            input = new StreamReader("D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\bin\\Debug\\input3.txt");
+            input = new StreamReader("input3.txt");
         }
         void reCallOutput()
         {
             try
             {
-                output = new StreamWriter("D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\bin\\Debug\\output3.txt");
+                output = new StreamWriter("output3.txt");
             } catch
             {
                 return;

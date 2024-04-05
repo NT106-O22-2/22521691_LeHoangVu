@@ -28,12 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.driveTree = new System.Windows.Forms.TreeView();
+            this.SuspendLayout();
+            // 
+            // driveTree
+            // 
+            this.driveTree.Font = new System.Drawing.Font("UTM Avo", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.driveTree.Location = new System.Drawing.Point(12, 12);
+            this.driveTree.Name = "driveTree";
+            this.driveTree.Size = new System.Drawing.Size(212, 539);
+            this.driveTree.TabIndex = 1;
+            // 
+            // Task7
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Task7";
+            this.BackgroundImage = global::Lab2_22521691.Properties.Resources.Task7;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(922, 563);
+            this.Controls.Add(this.driveTree);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "Task7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Duyệt thư mục";
+            this.Load += new System.EventHandler(this.Task7_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TreeView driveTree;
     }
 }

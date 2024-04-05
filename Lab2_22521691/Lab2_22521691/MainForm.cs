@@ -73,7 +73,6 @@ namespace Lab2_22521691
         private void switch_Task7_Click(object sender, EventArgs e)
         {
             this.Hide();
-
             Task7 t7 = new Task7();
             t7.ShowDialog();
             this.Close();

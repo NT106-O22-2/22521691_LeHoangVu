@@ -41,7 +41,6 @@ namespace Lab2_22521691
         {
             StreamWriter write = new StreamWriter(fileName.Text, true);
             write.WriteLine(fileData.Text);
-            //File.WriteAllText(fileName.Text, fileData.Text);
             write.Close();
         }
 
