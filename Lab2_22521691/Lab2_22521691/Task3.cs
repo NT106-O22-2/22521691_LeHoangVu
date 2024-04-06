@@ -116,13 +116,13 @@ namespace Lab2_22521691
 
         void reCallInput()
         {
-            input = new StreamReader("input3.txt");
+            input = new StreamReader(@"Data Source=input3.txt");
         }
         void reCallOutput()
         {
             try
             {
-                output = new StreamWriter("output3.txt");
+                output = new StreamWriter(@"Data Source=output3.txt");
             } catch
             {
                 return;

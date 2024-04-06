@@ -25,6 +25,8 @@ namespace Lab2_22521691
         {
             InitializeComponent();
             allID = new List<string>();
+            inputFile = @"Data Source=input4.txt";
+            outputFile = @"Data Source=output4.txt";
         }
 
         private void exitBtn_Click(object sender, EventArgs e)
@@ -119,54 +121,7 @@ namespace Lab2_22521691
             course3Write.Clear();
         }
 
-        /*private StreamReader Call_Reader(ref FileStream file)
-        {
-            try
-            {
-                if (file == null)
-                {
-                    OpenFileDialog saveFile = new OpenFileDialog();
-                    saveFile.Filter = "Văn bản (.txt)|*.txt";
-                    if (saveFile.ShowDialog() == DialogResult.OK)
-                    {
-                        file = new FileStream(saveFile.FileName, FileMode.Create);
-                        return new StreamReader(new FileStream(saveFile.FileName, FileMode.Create));
-                    }
-                }
-                else return new StreamReader(file);
-                //return new StreamReader("D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\bin\\txt_file");
-            }
-            catch
-            {
-                MessageBox.Show("Không thể truy cập file ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            return null;
-        }
-
-        private StreamWriter Call_Writter(ref FileStream file)
-        {
-            try
-            {
-                if (file == null)
-                {
-                    OpenFileDialog saveFile = new OpenFileDialog();
-                    saveFile.Filter = "Văn bản (.txt)|*.txt";
-                    if (saveFile.ShowDialog() == DialogResult.OK)
-                    {
-                        file = new FileStream(saveFile.FileName, FileMode.Create);
-                        return new StreamWriter(new FileStream(saveFile.FileName, FileMode.Create));
-                    }
-                }
-                else return new StreamWriter(file);
-                //return new StreamWriter("D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\bin\\txt_file" + write);
-            } catch
-            {
-                MessageBox.Show("Không thể truy cập file ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            return null;
-        }*/
-
-        private string File_Path()
+        /*private string File_Path()
         {
             try
             {
@@ -179,12 +134,12 @@ namespace Lab2_22521691
                 MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return null;
-        }
+        }*/
 
         private void writeFileBtn_Click(object sender, EventArgs e)
         {
-            StreamWriter write;
-            try
+            StreamWriter write = new StreamWriter(inputFile);
+            /*try
             {
                 inputFile = File_Path();
                 write = new StreamWriter(inputFile);
@@ -192,7 +147,7 @@ namespace Lab2_22521691
             {
                 MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
+            }*/
             write.WriteLine(dataLB.Text);
             //dataLB.Text = "";
             MessageBox.Show("Dữ liệu đã được viết!!!", "Thông báo", MessageBoxButtons.OK);
@@ -215,8 +170,8 @@ namespace Lab2_22521691
                 data += arr[i] + "\n";
             }
 
-            StreamWriter write;
-            try
+            StreamWriter write = new StreamWriter(outputFile);
+            /*try
             {
                 outputFile = File_Path();
                 write = new StreamWriter(outputFile);
@@ -224,7 +179,7 @@ namespace Lab2_22521691
             {
                 MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
+            }*/
             write.WriteLine(data);
 
             if (arr.Length >= 7)    //Hiển thị dữ liệu sinh viên đầu tiên

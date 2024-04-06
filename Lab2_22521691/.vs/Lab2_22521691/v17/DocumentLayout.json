@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab2_22521691\\lab2_22521691\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|solutionrelative:lab2_22521691\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab2_22521691\\lab2_22521691\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|solutionrelative:lab2_22521691\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab2_22521691\\lab2_22521691\\task7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F789D37-2F0B-4451-B566-36F5213D3CF6}|Lab2_22521691\\Lab2_22521691.csproj|solutionrelative:lab2_22521691\\task7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task2.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task2.cs",
-              "RelativeDocumentMoniker": "Lab2_22521691\\Task2.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task2.cs",
-              "RelativeToolTip": "Lab2_22521691\\Task2.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T12:55:36.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task4.cs",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task4.cs",
-              "RelativeDocumentMoniker": "Lab2_22521691\\Task4.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task4.cs",
-              "RelativeToolTip": "Lab2_22521691\\Task4.cs",
-              "ViewState": "AQIAAAMBAAAAAAAAAADgvxYBAAAXAAAA",
+              "Title": "Task7.cs",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task7.cs",
+              "RelativeDocumentMoniker": "Lab2_22521691\\Task7.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab2_22521691\\Lab2_22521691\\Task7.cs",
+              "RelativeToolTip": "Lab2_22521691\\Task7.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T12:49:01.28Z",
+              "WhenOpened": "2024-04-06T17:52:08.455Z",
               "EditorCaption": ""
             }
           ]

@@ -40,7 +40,7 @@ namespace Lab2_22521691
                 parentNode.Nodes.Add(directoryNode);
 
                 // Duyệt tất cả các file trong thư mục
-                foreach (var file in directory.GetFiles().Where(f => !f.Attributes.HasFlag(FileAttributes.Hidden)))
+                foreach (var file in directory.GetFiles())
                 {
                     // Thêm tên file vào treeview
                     TreeNode fileNode = new TreeNode(file.Name);
@@ -48,7 +48,7 @@ namespace Lab2_22521691
                 }
 
                 // Duyệt tất cả các thư mục con
-                foreach (var subdirectory in directory.GetDirectories().Where(d => !d.Attributes.HasFlag(FileAttributes.Hidden)))
+                foreach (var subdirectory in directory.GetDirectories())
                 {
                     Directory_Browsing(directoryNode, subdirectory);
                 }
