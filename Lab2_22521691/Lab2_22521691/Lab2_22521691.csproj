@@ -63,6 +63,9 @@
     <Reference Include="NaCl, Version=0.1.13.0, Culture=neutral, PublicKeyToken=827c20e50a9775fa, processorArchitecture=MSIL">
       <HintPath>..\packages\NaCl.Net.0.1.13\lib\net472\NaCl.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Numbers, Version=1.8.0.0, Culture=neutral, PublicKeyToken=9cd62db60ea5554c, processorArchitecture=MSIL">
       <HintPath>..\packages\PeterO.Numbers.1.8.0\lib\net40\Numbers.dll</HintPath>
     </Reference>
@@ -149,6 +152,8 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Movie.cs" />
+    <Compile Include="MovieInfor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -156,6 +161,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="seatBuy.cs" />
     <Compile Include="Task1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,9 @@
     <EmbeddedResource Include="Task4.resx">
       <DependentUpon>Task4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Task5.resx">
+      <DependentUpon>Task5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Task6.resx">
       <DependentUpon>Task6.cs</DependentUpon>
     </EmbeddedResource>
@@ -258,6 +267,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Task72.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Task51.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -56,3 +56,6 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Task6.resources
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\System.Security.Cryptography.Cng.dll
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\System.Security.Cryptography.Cng.xml
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\Newtonsoft.Json.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\bin\Debug\Newtonsoft.Json.xml
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab2_22521691\Lab2_22521691\obj\Debug\Lab2_22521691.Task5.resources

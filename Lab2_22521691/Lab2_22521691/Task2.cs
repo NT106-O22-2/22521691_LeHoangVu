@@ -60,7 +60,7 @@ namespace Lab2_22521691
                 StreamReader read = new StreamReader(fileURL.Text);
                 
 
-                fileSize.Text = read.BaseStream.Length.ToString();
+                fileSize.Text = read.BaseStream.Length.ToString() + " bytes";
 
                 int[] count = Count(read);
                 fileLineCount.Text = count[0].ToString();

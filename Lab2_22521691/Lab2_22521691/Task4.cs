@@ -106,7 +106,7 @@ namespace Lab2_22521691
                 dataAdd += course3Write.Text + "\n";
             } catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             
@@ -121,35 +121,10 @@ namespace Lab2_22521691
             course3Write.Clear();
         }
 
-        /*private string File_Path()
-        {
-            try
-            {
-                OpenFileDialog saveFile = new OpenFileDialog();
-                saveFile.Filter = "Văn bản (.txt)|*.txt";
-                if (saveFile.ShowDialog() == DialogResult.OK)
-                    return saveFile.FileName;
-            } catch
-            {
-                MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            return null;
-        }*/
-
         private void writeFileBtn_Click(object sender, EventArgs e)
         {
             StreamWriter write = new StreamWriter(inputFile);
-            /*try
-            {
-                inputFile = File_Path();
-                write = new StreamWriter(inputFile);
-            } catch
-            {
-                MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }*/
             write.WriteLine(dataLB.Text);
-            //dataLB.Text = "";
             MessageBox.Show("Dữ liệu đã được viết!!!", "Thông báo", MessageBoxButtons.OK);
             write.Close();
         }
@@ -171,15 +146,6 @@ namespace Lab2_22521691
             }
 
             StreamWriter write = new StreamWriter(outputFile);
-            /*try
-            {
-                outputFile = File_Path();
-                write = new StreamWriter(outputFile);
-            } catch
-            {
-                MessageBox.Show("Không thể truy cập file", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }*/
             write.WriteLine(data);
 
             if (arr.Length >= 7)    //Hiển thị dữ liệu sinh viên đầu tiên

@@ -164,7 +164,7 @@ namespace Lab2_22521691
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -198,7 +198,7 @@ namespace Lab2_22521691
                 Path_Valid(picPath.Text);
             } catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -221,7 +221,6 @@ namespace Lab2_22521691
                     command.ExecuteNonQuery();
                 }
             }
-
 
             browPicBtn.Show();
             picPath.Text = "";
@@ -246,37 +245,21 @@ namespace Lab2_22521691
                     Random random = new Random();
                     int randomNumber = random.Next(count) + 1;
 
-                    // Lấy đường dẫn ảnh theo số ngẫu nhiên
-                    string sqlGetImage = "SELECT HinhAnh, TenMonAn, IDNCC FROM MonAn WHERE IDMonAn = @Id";
+                    // Truy vấn lấy tên món,tên người và ảnh
+                    string sqlGetImage = "SELECT HinhAnh, TenMonAn, HoVaTen FROM MonAn, NguoiDung WHERE IDMonAn = @Id AND MonAn.IDNCC = NguoiDung.IDNCC";
                     using (var getCmd = new SQLiteCommand(sqlGetImage, sqlite))
                     {
                         getCmd.Parameters.AddWithValue("@Id", randomNumber);
 
                         using (var reader = getCmd.ExecuteReader())
                         {
+                            //Đọc dữ liệu và xuất ra
                             if (reader.Read())
                             {
                                 byte[] imageBytes = (byte[])reader["HinhAnh"];
                                 foodPic.Image = Image.FromStream(new MemoryStream(imageBytes));
 
-                                
-                                string nameFood = (string)reader["TenMonAn"];
-                                providerName.Text = nameFood;
-                                string providerID = (string)reader["IDNCC"];
-                                string sql = "SELECT HoVaTen FROM NguoiDung WHERE IDNCC = @ID";
-
-                                using (var command = new SQLiteCommand(sql, sqlite))
-                                {
-                                    command.Parameters.AddWithValue("@ID", providerID);
-
-                                    using (var reader2 = command.ExecuteReader())
-                                    {
-                                        if (reader2.Read())
-                                        {
-                                            providerName.Text  += ", đóng góp: " + (string)reader2["HoVaTen"];
-                                        }
-                                    }
-                                }
+                                providerName.Text = (string)reader["TenMonAn"] + ", đóng góp: " + (string)reader["HoVaTen"];
                             }
                         }
                     }

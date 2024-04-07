@@ -80,7 +80,7 @@ namespace Lab2_22521691
                     result += calculation[i] + " = " + Eval(calculation[i]).ToString() + "\n";
                 } catch (Exception ex)
                 {
-                    MessageBox.Show(ex.ToString(), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }

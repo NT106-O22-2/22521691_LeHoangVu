@@ -103,6 +103,26 @@ namespace Lab2_22521691.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Task5 {
+            get {
+                object obj = ResourceManager.GetObject("Task5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Task51 {
+            get {
+                object obj = ResourceManager.GetObject("Task51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Task6 {
             get {
                 object obj = ResourceManager.GetObject("Task6", resourceCulture);
