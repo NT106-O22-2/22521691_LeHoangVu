@@ -23,12 +23,13 @@ namespace Lab2_22521691
 
         }
 
+
         private void readFileBtn_Click(object sender, EventArgs e)
         {
             fileData.Clear();
             try
             {
-                StreamReader read = new StreamReader(fileName.Text);
+                StreamReader read = new StreamReader("input1.txt");
                 fileData.Text = read.ReadToEnd();
                 read.Close();
             } catch 
@@ -39,7 +40,8 @@ namespace Lab2_22521691
 
         private void writeFileBtn_Click(object sender, EventArgs e)
         {
-            StreamWriter write = new StreamWriter(fileName.Text, true);
+            StreamWriter write = new StreamWriter("output1.txt");
+            fileData.Text = fileData.Text.ToUpper();
             write.WriteLine(fileData.Text);
             write.Close();
         }
@@ -57,7 +59,7 @@ namespace Lab2_22521691
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            fileName.Clear();
+            fileData.Clear();
         }
     }
 }

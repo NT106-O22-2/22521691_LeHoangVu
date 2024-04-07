@@ -25,8 +25,8 @@ namespace Lab2_22521691
         {
             InitializeComponent();
             allID = new List<string>();
-            inputFile = @"Data Source=input4.txt";
-            outputFile = @"Data Source=output4.txt";
+            inputFile = "input4.txt";
+            outputFile = "output4.txt";
         }
 
         private void exitBtn_Click(object sender, EventArgs e)

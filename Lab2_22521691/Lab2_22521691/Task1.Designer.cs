@@ -29,28 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Task1));
-            this.fileName = new System.Windows.Forms.TextBox();
             this.readFileBtn = new System.Windows.Forms.Button();
             this.writeFileBtn = new System.Windows.Forms.Button();
             this.deleteBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.fileData = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // fileName
-            // 
-            this.fileName.AllowDrop = true;
-            this.fileName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.fileName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.fileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold);
-            this.fileName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.fileName.Location = new System.Drawing.Point(33, 87);
-            this.fileName.Multiline = true;
-            this.fileName.Name = "fileName";
-            this.fileName.Size = new System.Drawing.Size(258, 38);
-            this.fileName.TabIndex = 0;
-            this.fileName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // readFileBtn
             // 
@@ -147,7 +131,6 @@
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.writeFileBtn);
             this.Controls.Add(this.readFileBtn);
-            this.Controls.Add(this.fileName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Task1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -159,8 +142,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox fileName;
         private System.Windows.Forms.Button readFileBtn;
         private System.Windows.Forms.Button writeFileBtn;
         private System.Windows.Forms.Button deleteBtn;

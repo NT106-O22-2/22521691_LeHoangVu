@@ -30,8 +30,8 @@
         {
             this.loadBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
-            this.inputData = new System.Windows.Forms.TextBox();
-            this.outputData = new System.Windows.Forms.TextBox();
+            this.inputData = new System.Windows.Forms.Label();
+            this.outputData = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loadBtn
@@ -62,35 +62,19 @@
             // 
             // inputData
             // 
-            this.inputData.AllowDrop = true;
-            this.inputData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.inputData.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputData.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inputData.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.inputData.Location = new System.Drawing.Point(29, 105);
-            this.inputData.Multiline = true;
+            this.inputData.Font = new System.Drawing.Font("UTM Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inputData.Location = new System.Drawing.Point(27, 105);
             this.inputData.Name = "inputData";
-            this.inputData.ReadOnly = true;
-            this.inputData.Size = new System.Drawing.Size(403, 301);
-            this.inputData.TabIndex = 9;
-            this.inputData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.inputData.Size = new System.Drawing.Size(407, 301);
+            this.inputData.TabIndex = 11;
             // 
             // outputData
             // 
-            this.outputData.AllowDrop = true;
-            this.outputData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.outputData.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.outputData.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputData.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.outputData.Location = new System.Drawing.Point(490, 105);
-            this.outputData.Multiline = true;
+            this.outputData.Font = new System.Drawing.Font("UTM Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputData.Location = new System.Drawing.Point(486, 105);
             this.outputData.Name = "outputData";
-            this.outputData.ReadOnly = true;
-            this.outputData.Size = new System.Drawing.Size(403, 301);
-            this.outputData.TabIndex = 10;
-            this.outputData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.outputData.Size = new System.Drawing.Size(407, 301);
+            this.outputData.TabIndex = 12;
             // 
             // Task3
             // 
@@ -109,7 +93,6 @@
             this.Text = "Đọc, Ghi file và tính toán";
             this.Load += new System.EventHandler(this.Task3_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -117,7 +100,7 @@
 
         private System.Windows.Forms.Button loadBtn;
         private System.Windows.Forms.Button exitBtn;
-        private System.Windows.Forms.TextBox inputData;
-        private System.Windows.Forms.TextBox outputData;
+        private System.Windows.Forms.Label inputData;
+        private System.Windows.Forms.Label outputData;
     }
 }
