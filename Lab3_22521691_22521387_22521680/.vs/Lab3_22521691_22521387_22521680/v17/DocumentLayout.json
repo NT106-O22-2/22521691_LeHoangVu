@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\lab3_22521691_22521387_22521680\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|solutionrelative:lab3_22521691_22521387_22521680\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\lab3_22521691_22521387_22521680\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|solutionrelative:lab3_22521691_22521387_22521680\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|d:\\uit\\nam_2\\hk2\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - nt106.o22\\lab\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\lab3_22521691_22521387_22521680\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\lab3_22521691_22521387_22521680\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|solutionrelative:lab3_22521691_22521387_22521680\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\lab3_22521691_22521387_22521680\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6022170-1D00-4B45-97BE-0447459B3E32}|Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680.csproj|solutionrelative:lab3_22521691_22521387_22521680\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,32 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\MainForm.cs",
-              "RelativeDocumentMoniker": "Lab3_22521691_22521387_22521680\\MainForm.cs",
-              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\MainForm.cs [Design]",
-              "RelativeToolTip": "Lab3_22521691_22521387_22521680\\MainForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Task2.cs [Design]",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\Task2.cs",
+              "RelativeDocumentMoniker": "Lab3_22521691_22521387_22521680\\Task2.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\Task2.cs [Design]",
+              "RelativeToolTip": "Lab3_22521691_22521387_22521680\\Task2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:52:03.917Z",
+              "WhenOpened": "2024-04-18T01:11:04.487Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Task2.cs",
+              "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\Task2.cs",
+              "RelativeDocumentMoniker": "Lab3_22521691_22521387_22521680\\Task2.cs",
+              "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\Task2.cs",
+              "RelativeToolTip": "Lab3_22521691_22521387_22521680\\Task2.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwFEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T01:05:45.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\MainForm.cs",
               "RelativeDocumentMoniker": "Lab3_22521691_22521387_22521680\\MainForm.cs",
               "ToolTip": "D:\\UIT\\Nam_2\\HK2\\L\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Lab3_22521691_22521387_22521680\\MainForm.cs",
               "RelativeToolTip": "Lab3_22521691_22521387_22521680\\MainForm.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:49:57.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:49:57.838Z"
             }
           ]
         }
