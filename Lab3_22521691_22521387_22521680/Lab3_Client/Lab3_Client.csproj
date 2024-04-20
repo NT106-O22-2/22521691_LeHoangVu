@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E6022170-1D00-4B45-97BE-0447459B3E32}</ProjectGuid>
+    <ProjectGuid>{790FF3AF-82A1-4D59-9F33-F62D1DB41531}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab3_22521691_22521387_22521680</RootNamespace>
-    <AssemblyName>Lab3_22521691_22521387_22521680</AssemblyName>
+    <RootNamespace>Lab3_Client</RootNamespace>
+    <AssemblyName>Lab3_Client</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,41 +54,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task1.cs">
+    <Compile Include="Task3_Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task1.Designer.cs">
-      <DependentUpon>Task1.cs</DependentUpon>
+    <Compile Include="Task3_Client.Designer.cs">
+      <DependentUpon>Task3_Client.cs</DependentUpon>
     </Compile>
-    <Compile Include="Task2.cs">
+    <Compile Include="Task4_Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task2.Designer.cs">
-      <DependentUpon>Task2.cs</DependentUpon>
+    <Compile Include="Task4_Client.Designer.cs">
+      <DependentUpon>Task4_Client.cs</DependentUpon>
     </Compile>
-    <Compile Include="Task3.cs">
+    <Compile Include="Task5_Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task3.Designer.cs">
-      <DependentUpon>Task3.cs</DependentUpon>
+    <Compile Include="Task5_Client.Designer.cs">
+      <DependentUpon>Task5_Client.cs</DependentUpon>
     </Compile>
-    <Compile Include="Task4.cs">
+    <Compile Include="Task6_Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task4.Designer.cs">
-      <DependentUpon>Task4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Task5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Task5.Designer.cs">
-      <DependentUpon>Task5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Task6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Task6.Designer.cs">
-      <DependentUpon>Task6.cs</DependentUpon>
+    <Compile Include="Task6_Client.Designer.cs">
+      <DependentUpon>Task6_Client.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -103,12 +91,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Task2.resx">
-      <DependentUpon>Task2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Task4.resx">
-      <DependentUpon>Task4.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,13 +105,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MainForm.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Task2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Task21.jpg" />
+    <None Include="Resources\MainForm_Client.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

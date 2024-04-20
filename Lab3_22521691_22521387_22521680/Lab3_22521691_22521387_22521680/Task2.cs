@@ -33,10 +33,13 @@ namespace Lab3_22521691_22521387_22521680
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MainForm mf = new MainForm();
-            mf.ShowDialog();
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                MainForm mf = new MainForm();
+                mf.ShowDialog();
+                this.Close();
+            }
         }
 
         private void listenBtn_Click(object sender, EventArgs e)
@@ -79,10 +82,6 @@ namespace Lab3_22521691_22521387_22521680
 
         private void Task2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            foreach (Socket client in clientSocket)
-            {
-
-            }
             listenerSocket.Close();
         }
     }

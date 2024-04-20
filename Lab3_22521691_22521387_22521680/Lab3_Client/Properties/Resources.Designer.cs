@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Lab3_22521691_22521387_22521680.Properties {
+namespace Lab3_Client.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Lab3_22521691_22521387_22521680.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lab3_22521691_22521387_22521680.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lab3_Client.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,29 +63,9 @@ namespace Lab3_22521691_22521387_22521680.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MainForm {
+        internal static System.Drawing.Bitmap MainForm_Client {
             get {
-                object obj = ResourceManager.GetObject("MainForm", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Task2 {
-            get {
-                object obj = ResourceManager.GetObject("Task2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Task21 {
-            get {
-                object obj = ResourceManager.GetObject("Task21", resourceCulture);
+                object obj = ResourceManager.GetObject("MainForm_Client", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
