@@ -13,3 +13,18 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\Task4\Task4\obj\
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\Task4\Task4\obj\Debug\Task4.csproj.Up2Date
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\Task4\Task4\obj\Debug\Task4.exe
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\Task4\Task4\obj\Debug\Task4.pdb
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\bin\Debug\Task4.exe.config
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\bin\Debug\Task4.exe
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\bin\Debug\Task4.pdb
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\bin\Debug\Newtonsoft.Json.dll
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\bin\Debug\Newtonsoft.Json.xml
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.Client.resources
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.MainForm.resources
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.Properties.Resources.resources
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.Server.resources
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.csproj.GenerateResource.cache
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.csproj.Up2Date
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.exe
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task4\obj\Debug\Task4.pdb
