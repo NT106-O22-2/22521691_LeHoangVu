@@ -29,7 +29,7 @@ namespace Bai01
 
             Thread thdUDPServer = new Thread(new ThreadStart(serverThread));
             thdUDPServer.Start();
-           
+
         }
         public void serverThread()
         {
@@ -81,6 +81,11 @@ namespace Bai01
             {
                 lsvMessage.Items.Add(mess);
             }
+        }
+
+        private void Server_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            udpServer.Close();
         }
     }
 }

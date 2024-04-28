@@ -39,33 +39,37 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(65, 39);
+            label1.Location = new Point(52, 31);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(48, 25);
+            label1.Size = new Size(38, 20);
             label1.TabIndex = 0;
             label1.Text = "Port:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(65, 92);
+            label2.Location = new Point(52, 74);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(164, 25);
+            label2.Size = new Size(137, 20);
             label2.TabIndex = 1;
             label2.Text = "Received messages";
             // 
             // txbPort
             // 
-            txbPort.Location = new Point(136, 36);
+            txbPort.Location = new Point(109, 29);
+            txbPort.Margin = new Padding(2, 2, 2, 2);
             txbPort.Name = "txbPort";
-            txbPort.Size = new Size(150, 31);
+            txbPort.Size = new Size(121, 27);
             txbPort.TabIndex = 2;
             // 
             // btnListen
             // 
-            btnListen.Location = new Point(618, 28);
+            btnListen.Location = new Point(494, 22);
+            btnListen.Margin = new Padding(2, 2, 2, 2);
             btnListen.Name = "btnListen";
-            btnListen.Size = new Size(112, 40);
+            btnListen.Size = new Size(90, 32);
             btnListen.TabIndex = 3;
             btnListen.Text = "Listen";
             btnListen.UseVisualStyleBackColor = true;
@@ -73,9 +77,10 @@
             // 
             // lsvMessage
             // 
-            lsvMessage.Location = new Point(65, 133);
+            lsvMessage.Location = new Point(52, 106);
+            lsvMessage.Margin = new Padding(2, 2, 2, 2);
             lsvMessage.Name = "lsvMessage";
-            lsvMessage.Size = new Size(665, 276);
+            lsvMessage.Size = new Size(533, 222);
             lsvMessage.TabIndex = 4;
             lsvMessage.UseCompatibleStateImageBehavior = false;
             lsvMessage.View = View.List;
@@ -83,26 +88,29 @@
             // lblListening
             // 
             lblListening.AutoSize = true;
-            lblListening.Location = new Point(253, 92);
+            lblListening.Location = new Point(202, 74);
+            lblListening.Margin = new Padding(2, 0, 2, 0);
             lblListening.Name = "lblListening";
-            lblListening.Size = new Size(44, 25);
+            lblListening.Size = new Size(37, 20);
             lblListening.TabIndex = 6;
             lblListening.Text = "wait";
             // 
             // Server
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SeaShell;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(lblListening);
             Controls.Add(lsvMessage);
             Controls.Add(btnListen);
             Controls.Add(txbPort);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Server";
             Text = "Server";
+            FormClosed += Server_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -323,7 +323,7 @@ namespace Bai05
                     int idNCC;
                     if (int.TryParse(parts[3], out idNCC))
                     {
-                        DatabaseHelper.InsertMonAn(tenMonAn, null, idNCC);
+                        DatabaseHelper.InsertMonAn?(tenMonAn, null, idNCC);
                     }
                     else
                     {
