@@ -8,3 +8,5 @@ I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22
 I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\bin\Debug\Task6.pdb
 I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.exe
 I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.pdb
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Client1.client.resources
+I:\Lập Trình Mạng\Thực hành\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\sever1.sever.resources

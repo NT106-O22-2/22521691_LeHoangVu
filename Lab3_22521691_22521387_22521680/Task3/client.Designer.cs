@@ -54,6 +54,7 @@
             // 
             // SendBT
             // 
+            this.SendBT.Enabled = false;
             this.SendBT.Location = new System.Drawing.Point(548, 99);
             this.SendBT.Name = "SendBT";
             this.SendBT.Size = new System.Drawing.Size(146, 27);
@@ -64,6 +65,7 @@
             // 
             // DisconnectBt
             // 
+            this.DisconnectBt.Enabled = false;
             this.DisconnectBt.Location = new System.Drawing.Point(548, 158);
             this.DisconnectBt.Name = "DisconnectBt";
             this.DisconnectBt.Size = new System.Drawing.Size(146, 27);
@@ -76,11 +78,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 223);
+            this.BackgroundImage = global::Task3.Properties.Resources.Lab3_NT132;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(711, 214);
             this.Controls.Add(this.DisconnectBt);
             this.Controls.Add(this.SendBT);
             this.Controls.Add(this.ConnectBt);
             this.Controls.Add(this.messageTb);
+            this.DoubleBuffered = true;
             this.Name = "client";
             this.Text = "client";
             this.ResumeLayout(false);

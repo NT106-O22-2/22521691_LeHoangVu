@@ -44,9 +44,9 @@
             // 
             // ClientBt
             // 
-            this.ClientBt.Location = new System.Drawing.Point(232, 71);
+            this.ClientBt.Location = new System.Drawing.Point(229, 68);
             this.ClientBt.Name = "ClientBt";
-            this.ClientBt.Size = new System.Drawing.Size(108, 58);
+            this.ClientBt.Size = new System.Drawing.Size(146, 64);
             this.ClientBt.TabIndex = 0;
             this.ClientBt.Text = "Mở client";
             this.ClientBt.UseVisualStyleBackColor = true;
@@ -56,11 +56,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Task6.Properties.Resources.Lab3_NT132;
             this.ClientSize = new System.Drawing.Size(419, 218);
             this.Controls.Add(this.ClientBt);
             this.Controls.Add(this.severBt);
             this.Name = "task6";
-            this.Text = "task6";
+            this.Text = "task 6";
             this.ResumeLayout(false);
 
         }

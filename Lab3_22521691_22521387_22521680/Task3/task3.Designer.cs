@@ -34,7 +34,7 @@
             // 
             // severBt
             // 
-            this.severBt.Location = new System.Drawing.Point(28, 53);
+            this.severBt.Location = new System.Drawing.Point(76, 123);
             this.severBt.Name = "severBt";
             this.severBt.Size = new System.Drawing.Size(166, 72);
             this.severBt.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // clientBt
             // 
-            this.clientBt.Location = new System.Drawing.Point(230, 53);
+            this.clientBt.Location = new System.Drawing.Point(318, 123);
             this.clientBt.Name = "clientBt";
             this.clientBt.Size = new System.Drawing.Size(172, 72);
             this.clientBt.TabIndex = 0;
@@ -56,11 +56,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(425, 194);
+            this.BackgroundImage = global::Task3.Properties.Resources.Lab3_NT132;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(547, 308);
             this.Controls.Add(this.clientBt);
             this.Controls.Add(this.severBt);
+            this.DoubleBuffered = true;
             this.Name = "task3";
-            this.Text = "Form1";
+            this.Text = "task 3";
             this.ResumeLayout(false);
 
         }

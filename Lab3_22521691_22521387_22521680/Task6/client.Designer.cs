@@ -41,9 +41,9 @@
             // 
             // ConnectButton
             // 
-            this.ConnectButton.Location = new System.Drawing.Point(702, 78);
+            this.ConnectButton.Location = new System.Drawing.Point(557, 73);
             this.ConnectButton.Name = "ConnectButton";
-            this.ConnectButton.Size = new System.Drawing.Size(75, 23);
+            this.ConnectButton.Size = new System.Drawing.Size(79, 45);
             this.ConnectButton.TabIndex = 1;
             this.ConnectButton.Text = "Connect";
             this.ConnectButton.UseVisualStyleBackColor = true;
@@ -61,9 +61,9 @@
             // 
             // CreateRoomButton
             // 
-            this.CreateRoomButton.Location = new System.Drawing.Point(702, 23);
+            this.CreateRoomButton.Location = new System.Drawing.Point(557, 28);
             this.CreateRoomButton.Name = "CreateRoomButton";
-            this.CreateRoomButton.Size = new System.Drawing.Size(75, 23);
+            this.CreateRoomButton.Size = new System.Drawing.Size(79, 38);
             this.CreateRoomButton.TabIndex = 3;
             this.CreateRoomButton.Text = "Create";
             this.CreateRoomButton.UseVisualStyleBackColor = true;
@@ -73,16 +73,16 @@
             // 
             this.chatListBox.FormattingEnabled = true;
             this.chatListBox.ItemHeight = 16;
-            this.chatListBox.Location = new System.Drawing.Point(43, 12);
+            this.chatListBox.Location = new System.Drawing.Point(43, 124);
             this.chatListBox.Name = "chatListBox";
-            this.chatListBox.Size = new System.Drawing.Size(247, 340);
+            this.chatListBox.Size = new System.Drawing.Size(734, 228);
             this.chatListBox.TabIndex = 4;
             // 
             // NameTextBox
             // 
-            this.NameTextBox.Location = new System.Drawing.Point(457, 12);
+            this.NameTextBox.Location = new System.Drawing.Point(200, 44);
             this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(100, 22);
+            this.NameTextBox.Size = new System.Drawing.Size(324, 22);
             this.NameTextBox.TabIndex = 5;
             // 
             // MessageTextBox
@@ -94,15 +94,16 @@
             // 
             // RoomNameTextBox
             // 
-            this.RoomNameTextBox.Location = new System.Drawing.Point(457, 57);
+            this.RoomNameTextBox.Location = new System.Drawing.Point(200, 79);
             this.RoomNameTextBox.Name = "RoomNameTextBox";
-            this.RoomNameTextBox.Size = new System.Drawing.Size(100, 22);
+            this.RoomNameTextBox.Size = new System.Drawing.Size(87, 22);
             this.RoomNameTextBox.TabIndex = 5;
+            this.RoomNameTextBox.TextChanged += new System.EventHandler(this.RoomNameTextBox_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(391, 12);
+            this.label1.Location = new System.Drawing.Point(138, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 16);
             this.label1.TabIndex = 6;
@@ -111,7 +112,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(391, 60);
+            this.label2.Location = new System.Drawing.Point(138, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 6;
@@ -121,6 +122,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Task6.Properties.Resources.Lab3_NT132;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -131,8 +134,9 @@
             this.Controls.Add(this.CreateRoomButton);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.ConnectButton);
+            this.DoubleBuffered = true;
             this.Name = "client";
-            this.Text = "Form1";
+            this.Text = "Client";
             this.ResumeLayout(false);
             this.PerformLayout();
 

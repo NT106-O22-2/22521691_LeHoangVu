@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|solutionrelative:task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task6\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|solutionrelative:task6\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|solutionrelative:task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task6\\task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|solutionrelative:task6\\task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\sever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|i:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\th\u1EF1c h\u00E0nh\\22521691_lehoangvu\\lab3_22521691_22521387_22521680\\task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3A64ECEE-890F-436C-81C9-BCA6141E4CB9}|Task6\\Task6.csproj|solutionrelative:task6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\task3\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C74CAB-C5F2-4469-97FA-BE36B8BA97BC}|Task3\\Task3.csproj|solutionrelative:task3\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,45 +58,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "client.Designer.cs",
-              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.Designer.cs",
-              "RelativeDocumentMoniker": "Task3\\client.Designer.cs",
-              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.Designer.cs",
-              "RelativeToolTip": "Task3\\client.Designer.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAMwFQAAAAhAAAA",
+              "DocumentIndex": 0,
+              "Title": "client.cs",
+              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\client.cs",
+              "RelativeDocumentMoniker": "Task6\\client.cs",
+              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\client.cs",
+              "RelativeToolTip": "Task6\\client.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:51:44.658Z",
+              "WhenOpened": "2024-04-28T12:05:53.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "task3.cs [Design]",
+              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\task3.cs",
+              "RelativeDocumentMoniker": "Task3\\task3.cs",
+              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\task3.cs [Design]",
+              "RelativeToolTip": "Task3\\task3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:57:26.764Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "task6.cs [Design]",
+              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\task6.cs",
+              "RelativeDocumentMoniker": "Task6\\task6.cs",
+              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\task6.cs [Design]",
+              "RelativeToolTip": "Task6\\task6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:55:54.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sever.cs [Design]",
+              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\sever.cs",
+              "RelativeDocumentMoniker": "Task6\\sever.cs",
+              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\sever.cs [Design]",
+              "RelativeToolTip": "Task6\\sever.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:55:51.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "client.cs",
               "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.cs",
               "RelativeDocumentMoniker": "Task3\\client.cs",
               "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.cs",
               "RelativeToolTip": "Task3\\client.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAIAwwBkAAAASAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAIAwwDIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T19:33:30.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "sever.cs [Design]",
               "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\sever.cs",
               "RelativeDocumentMoniker": "Task3\\sever.cs",
               "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\sever.cs [Design]",
               "RelativeToolTip": "Task3\\sever.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:33:24.922Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-27T19:33:24.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "client.cs [Design]",
               "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.cs",
               "RelativeDocumentMoniker": "Task3\\client.cs",
@@ -92,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "client.cs [Design]",
               "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task6\\client.cs",
               "RelativeDocumentMoniker": "Task6\\client.cs",
@@ -104,15 +155,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "sever.cs",
               "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\sever.cs",
               "RelativeDocumentMoniker": "Task3\\sever.cs",
               "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\sever.cs",
               "RelativeToolTip": "Task3\\sever.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAIAwwB8AAAAUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAtwCEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T18:44:06.694Z",
+              "WhenOpened": "2024-04-27T18:44:06.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "client.Designer.cs",
+              "DocumentMoniker": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.Designer.cs",
+              "RelativeDocumentMoniker": "Task3\\client.Designer.cs",
+              "ToolTip": "I:\\L\u1EADp Tr\u00ECnh M\u1EA1ng\\Th\u1EF1c h\u00E0nh\\22521691_LeHoangVu\\Lab3_22521691_22521387_22521680\\Task3\\client.Designer.cs",
+              "RelativeToolTip": "Task3\\client.Designer.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAMwFQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:51:44.658Z",
               "EditorCaption": ""
             }
           ]

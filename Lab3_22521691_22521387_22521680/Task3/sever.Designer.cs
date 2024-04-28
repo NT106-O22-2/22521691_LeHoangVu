@@ -56,11 +56,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Task3.Properties.Resources.Lab3_NT132;
             this.ClientSize = new System.Drawing.Size(515, 374);
             this.Controls.Add(this.StartBt);
             this.Controls.Add(this.messageLv);
             this.Name = "sever";
-            this.Text = "sever";
+            this.Text = "Sever";
             this.ResumeLayout(false);
 
         }

@@ -50,6 +50,7 @@ namespace Client1
             }
 
             clientSocket.Send(Encoding.ASCII.GetBytes(message));
+            MessageTextBox.Text = "";
         }
 
         private void CreateRoomButton_Click(object sender, EventArgs e)
@@ -95,6 +96,11 @@ namespace Client1
             {
                 chatListBox.Items.Add(message);
             }
+        }
+
+        private void RoomNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

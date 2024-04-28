@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(594, 367);
             this.Controls.Add(this.StartServerButton);
             this.Name = "sever";
-            this.Text = "Form1";
+            this.Text = "Sever";
             this.ResumeLayout(false);
 
         }

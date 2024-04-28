@@ -32,9 +32,11 @@ namespace Task3
                 IPEndPoint ipEndPoint = new IPEndPoint(ipAddress, 8080);
                 tcpClient.Connect(ipEndPoint);
                 ConnectBt.Enabled = false;
+                DisconnectBt.Enabled = true;
+                SendBT.Enabled = true;
                 ns = tcpClient.GetStream();
-                receiveThread = new Thread(ReceiveData);
-                receiveThread.Start();
+                Byte[] data = Encoding.ASCII.GetBytes("Hello\n");
+                ns.Write(data, 0, data.Length);
             }
             catch
             {
@@ -44,11 +46,15 @@ namespace Task3
 
         private void SendBT_Click(object sender, EventArgs e)
         {
-            if (tcpClient.Connected)
+            if (tcpClient.Connected && messageTb.Text !="")
             {
-                Byte[] data = Encoding.ASCII.GetBytes(messageTb.Text);
+                Byte[] data = Encoding.ASCII.GetBytes("client send: " + messageTb.Text + "\n");
                 ns.Write(data, 0, data.Length);
                 messageTb.Clear();
+            }
+            else if (messageTb.Text == "")
+            {
+                MessageBox.Show("Vui long nhap noi dung");
             }
             else
             {
@@ -62,30 +68,15 @@ namespace Task3
             {
                 Byte[] data = Encoding.ASCII.GetBytes("Quit\n");
                 ns.Write(data, 0, data.Length);
+                ConnectBt.Enabled = true;
+                DisconnectBt.Enabled = false;
+                SendBT.Enabled = false;
                 ns.Close();
                 tcpClient.Close();
-                receiveThread.Abort();
             }
             else
             {
                 MessageBox.Show("Kết nối tới server đã đóng.");
-            }
-        }
-
-        private void ReceiveData()
-        {
-            try
-            {
-                while (true)
-                {
-                    byte[] receivedBytes = new byte[1024];
-                    int byteCount = ns.Read(receivedBytes, 0, receivedBytes.Length);
-                    string receivedData = Encoding.ASCII.GetString(receivedBytes, 0, byteCount);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi khi nhận dữ liệu: " + ex.Message);
             }
         }
     }

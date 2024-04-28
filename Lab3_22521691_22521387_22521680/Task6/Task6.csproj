@@ -66,6 +66,9 @@
     <Compile Include="task6.Designer.cs">
       <DependentUpon>task6.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="client.resx">
+      <DependentUpon>client.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,7 +77,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sever.resx">
+      <DependentUpon>sever.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="task6.resx">
       <DependentUpon>task6.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lab3_NT132.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
