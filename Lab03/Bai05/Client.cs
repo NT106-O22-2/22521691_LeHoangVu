@@ -63,12 +63,6 @@ namespace Bai05
                                     byte[] imageBytes = File.ReadAllBytes(txtHinhAnhName.Text);
                                     await stream.WriteAsync(imageBytes, 0, imageBytes.Length);
                                     await stream.FlushAsync();
-
-                                    response = await reader.ReadLineAsync();
-                                    if (response != null)
-                                    {
-                                        MessageBox.Show(response);
-                                    }
                                 }
                             }
                         }

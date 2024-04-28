@@ -222,7 +222,6 @@ namespace Bai05
                     }
                 }
             }
-
         }
 
         private void lsvDSMonan_SelectedIndexChanged(object sender, EventArgs e)
@@ -283,33 +282,29 @@ namespace Bai05
         {
             try
             {
-                NetworkStream stream = client.GetStream();
-                StreamReader reader = new StreamReader(stream);
-                StreamWriter writer = new StreamWriter(stream);
-
-                string? header = await reader.ReadLineAsync();
-                if (header == "Data")
+                while (true)
                 {
-                    string? data = await reader.ReadLineAsync();
-                    if (data != null)
+                    NetworkStream stream = client.GetStream();
+                    StreamReader reader = new StreamReader(stream);
+                    StreamWriter writer = new StreamWriter(stream);
+
+                    string? header = await reader.ReadLineAsync();
+                    if (header.Contains("Data"))
                     {
-                        ProcessData(data);
-                        await writer.WriteLineAsync("Data received successfully");
-                        await writer.FlushAsync();
+                        if (header != null)
+                        {
+                            ProcessData(header);
+                            await writer.WriteLineAsync("Data received successfully");
+                            await writer.FlushAsync();
+                        }
+                    }
+                    if (header.Contains("Image"))
+                    {
+                        byte[] imageData = ReadImageDataFromStream(stream);
+                        string imageName = GenerateImageName();
+                        string imagePath = SaveImageToFile(imageName, imageData);
                     }
                 }
-                if (header == "Image")
-                {
-                    byte[] imageData = ReadImageDataFromStream(stream);
-                    string imageName = GenerateImageName();
-                    string imagePath = SaveImageToFile(imageName, imageData);
-
-                    await writer.WriteLineAsync("Image received and saved successfully");
-                    await writer.FlushAsync();
-                }
-
-                stream.Close();
-                client.Close();
             }
             catch (Exception ex)
             {
@@ -322,11 +317,11 @@ namespace Bai05
             if (data != null)
             {
                 string[] parts = data.Split(',');
-                if (parts.Length == 3 && parts[0] == "MonAn")
+                if (parts.Length == 4 && parts[1] == "MonAn")
                 {
-                    string tenMonAn = parts[1];
+                    string tenMonAn = parts[2];
                     int idNCC;
-                    if (int.TryParse(parts[2], out idNCC))
+                    if (int.TryParse(parts[3], out idNCC))
                     {
                         DatabaseHelper.InsertMonAn(tenMonAn, null, idNCC);
                     }
