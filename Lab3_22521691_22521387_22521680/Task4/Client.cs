@@ -284,12 +284,12 @@ namespace Task4
 
             //Cập nhật rank
             int[] rankList = { shows[0].revenue, shows[1].revenue, shows[2].revenue, shows[3].revenue };
-            int[] rankIndex = new int[rankList.Length];
+            int[] rankIndex = { shows[0].revenue, shows[1].revenue, shows[2].revenue, shows[3].revenue };
             for (int i = 1; i < rankIndex.Length; i++)
             {
                 int k = rankIndex[i];
                 int j = i - 1;
-                while (j >= 0 && rankIndex[j] > rankIndex[i])
+                while (j >= 0 && rankIndex[j] < k)
                 {
                     rankIndex[j + 1] = rankIndex[j];
                     j--;
