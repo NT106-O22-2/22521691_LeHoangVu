@@ -1,0 +1,71 @@
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.exe
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.deps.json
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.runtimeconfig.json
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.pdb
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Client.resources
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Init.resources
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Server.resources
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.GenerateResource.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.AssemblyInfoInputs.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.AssemblyInfo.cs
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.CoreCompileInputs.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\refint\Bai05.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.pdb
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.genruntimeconfig.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\ref\Bai05.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\EntityFramework.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.AssemblyReference.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.Up2Date
+D:\Lập trình mạng căn bản\ThucHanh\Lab03\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Properties.Resources.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.exe
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.deps.json
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.runtimeconfig.json
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\Bai05.pdb
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\EntityFramework.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.AssemblyReference.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Client.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Init.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Properties.Resources.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.Server.resources
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.GenerateResource.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.GeneratedMSBuildEditorConfig.editorconfig
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.AssemblyInfoInputs.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.AssemblyInfo.cs
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.CoreCompileInputs.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.sourcelink.json
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.csproj.Up2Date
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\refint\Bai05.dll
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.pdb
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\Bai05.genruntimeconfig.cache
+D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab03\Bai05\obj\Debug\net8.0-windows\ref\Bai05.dll
