@@ -18,3 +18,23 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.csproj.Up2Date
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.exe
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.pdb
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Task3.exe.config
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Task3.exe
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Task3.pdb
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.Core.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.Core.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.csproj.AssemblyReference.cache
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.Properties.Resources.resources
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.Task2.resources
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.csproj.GenerateResource.cache
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.csproj.Up2Date
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.exe
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task3.pdb
