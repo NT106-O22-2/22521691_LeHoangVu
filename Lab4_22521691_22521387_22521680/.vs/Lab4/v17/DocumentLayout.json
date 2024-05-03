@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|solutionrelative:task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B0422EC-9365-4351-8E26-106EE383B8F1}|Task5\\Task5.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0422EC-9365-4351-8E26-106EE383B8F1}|Task5\\Task5.csproj|solutionrelative:task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|solutionrelative:task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B0422EC-9365-4351-8E26-106EE383B8F1}|Task5\\Task5.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B0422EC-9365-4351-8E26-106EE383B8F1}|Task5\\Task5.csproj|solutionrelative:task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task3.cs [Design]",
-              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs",
-              "RelativeDocumentMoniker": "Task3\\Task3.cs",
-              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs [Design]",
-              "RelativeToolTip": "Task3\\Task3.cs [Design]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeDocumentMoniker": "Task5\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeToolTip": "Task5\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T13:41:40.411Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-03T18:15:32.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Task3.cs",
-              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs",
-              "RelativeDocumentMoniker": "Task3\\Task3.cs",
-              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs",
-              "RelativeToolTip": "Task3\\Task3.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAwwA0AAAAAAAAA",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeDocumentMoniker": "Task5\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs [Design]",
+              "RelativeToolTip": "Task5\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T13:23:40.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T18:09:22.962Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
