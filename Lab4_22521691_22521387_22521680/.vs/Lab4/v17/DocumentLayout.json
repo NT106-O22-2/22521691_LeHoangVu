@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E1C8CF7-B2C9-45DD-A438-6F469387C6BF}|Task3\\Task3.csproj|solutionrelative:task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{055574E2-91FE-40E5-8022-D7A7B4B4BC5C}|Task5\\Task5.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{055574E2-91FE-40E5-8022-D7A7B4B4BC5C}|Task5\\Task5.csproj|solutionrelative:task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055574E2-91FE-40E5-8022-D7A7B4B4BC5C}|Task5\\Task5.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055574E2-91FE-40E5-8022-D7A7B4B4BC5C}|Task5\\Task5.csproj|solutionrelative:task5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F248A058-3F9F-49A6-8990-B80F02F07593}|Lab4_22521691_22521387_22521680\\Task1.csproj|e:\\ltm\\t\\22521691_lehoangvu\\lab4_22521691_22521387_22521680\\lab4_22521691_22521387_22521680\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F248A058-3F9F-49A6-8990-B80F02F07593}|Lab4_22521691_22521387_22521680\\Task1.csproj|solutionrelative:lab4_22521691_22521387_22521680\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F248A058-3F9F-49A6-8990-B80F02F07593}|Lab4_22521691_22521387_22521680\\Task1.csproj|E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\lab4_22521691_22521387_22521680\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F248A058-3F9F-49A6-8990-B80F02F07593}|Lab4_22521691_22521387_22521680\\Task1.csproj|solutionrelative:lab4_22521691_22521387_22521680\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Task3.cs [Design]",
-              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs",
-              "RelativeDocumentMoniker": "Task3\\Task3.cs",
-              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task3\\Task3.cs [Design]",
-              "RelativeToolTip": "Task3\\Task3.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeDocumentMoniker": "Task5\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeToolTip": "Task5\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T08:30:47.265Z",
+              "WhenOpened": "2024-05-05T08:49:17.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs",
+              "RelativeDocumentMoniker": "Task5\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Task5\\Form1.cs [Design]",
+              "RelativeToolTip": "Task5\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:48:41.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Lab4_22521691_22521387_22521680\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab4_22521691_22521387_22521680\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Lab4_22521691_22521387_22521680\\Form1.cs",
+              "RelativeToolTip": "Lab4_22521691_22521387_22521680\\Form1.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:43:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Lab4_22521691_22521387_22521680\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab4_22521691_22521387_22521680\\Form1.cs",
+              "ToolTip": "E:\\LTM\\t\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Lab4_22521691_22521387_22521680\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab4_22521691_22521387_22521680\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T08:43:53.041Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,18 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
+using System.Net.Http;
 using System.Text.Json;
-using System.IO;
 
 namespace Task5
 {
@@ -28,7 +16,7 @@ namespace Task5
             BaseAddress = new Uri(@"https://nt106.uitiot.vn")
         };
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
