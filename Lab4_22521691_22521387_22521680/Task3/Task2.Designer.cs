@@ -41,8 +41,9 @@
             // webView21
             // 
             this.webView21.AllowExternalDrop = true;
+            this.webView21.BackColor = System.Drawing.Color.Lavender;
             this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.Lavender;
             this.webView21.Location = new System.Drawing.Point(22, 131);
             this.webView21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.webView21.Name = "webView21";
@@ -58,10 +59,10 @@
             this.btnViewSource.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnViewSource.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
             this.btnViewSource.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewSource.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewSource.Location = new System.Drawing.Point(306, 65);
+            this.btnViewSource.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewSource.Location = new System.Drawing.Point(275, 65);
             this.btnViewSource.Name = "btnViewSource";
-            this.btnViewSource.Size = new System.Drawing.Size(135, 45);
+            this.btnViewSource.Size = new System.Drawing.Size(153, 45);
             this.btnViewSource.TabIndex = 19;
             this.btnViewSource.Text = "View Source ";
             this.btnViewSource.UseVisualStyleBackColor = false;
@@ -69,7 +70,8 @@
             // 
             // txtUrl
             // 
-            this.txtUrl.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUrl.BackColor = System.Drawing.Color.SeaShell;
+            this.txtUrl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUrl.Location = new System.Drawing.Point(114, 17);
             this.txtUrl.Multiline = true;
             this.txtUrl.Name = "txtUrl";
@@ -85,10 +87,10 @@
             this.btnDownFiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnDownFiles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
             this.btnDownFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDownFiles.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDownFiles.Location = new System.Drawing.Point(454, 65);
+            this.btnDownFiles.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownFiles.Location = new System.Drawing.Point(444, 65);
             this.btnDownFiles.Name = "btnDownFiles";
-            this.btnDownFiles.Size = new System.Drawing.Size(125, 45);
+            this.btnDownFiles.Size = new System.Drawing.Size(135, 45);
             this.btnDownFiles.TabIndex = 17;
             this.btnDownFiles.Text = "Down Files";
             this.btnDownFiles.UseVisualStyleBackColor = false;
@@ -102,7 +104,7 @@
             this.btnDownResources.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnDownResources.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
             this.btnDownResources.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDownResources.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownResources.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDownResources.Location = new System.Drawing.Point(595, 65);
             this.btnDownResources.Name = "btnDownResources";
             this.btnDownResources.Size = new System.Drawing.Size(215, 45);
@@ -118,7 +120,7 @@
             this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
             this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReload.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.Location = new System.Drawing.Point(684, 11);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(127, 45);
@@ -134,7 +136,7 @@
             this.btnLoad.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
             this.btnLoad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Azure;
             this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoad.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoad.Location = new System.Drawing.Point(22, 14);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 45);

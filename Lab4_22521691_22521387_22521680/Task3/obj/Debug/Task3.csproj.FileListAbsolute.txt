@@ -41,3 +41,5 @@ E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\obj\Debug\Task
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\HtmlAgilityPack.dll
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\HtmlAgilityPack.pdb
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\HtmlAgilityPack.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Newtonsoft.Json.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task3\bin\Debug\Newtonsoft.Json.xml

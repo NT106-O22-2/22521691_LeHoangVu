@@ -18,3 +18,9 @@ E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\obj\Debug\Task
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\obj\Debug\Task2.exe
 E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\obj\Debug\Task2.pdb
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\bin\Debug\HtmlAgilityPack.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\bin\Debug\Newtonsoft.Json.dll
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\bin\Debug\HtmlAgilityPack.pdb
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\bin\Debug\HtmlAgilityPack.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\bin\Debug\Newtonsoft.Json.xml
+E:\LTM\t\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Task2\obj\Debug\Task2.csproj.Up2Date
