@@ -22,3 +22,15 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.exe
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.pdb
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\bin\Debug\Task6.exe.config
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\bin\Debug\Task6.exe
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\bin\Debug\Task6.pdb
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.csproj.AssemblyReference.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Client1.client.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.Properties.Resources.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\sever1.sever.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.task6.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.csproj.GenerateResource.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.exe
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Task6\obj\Debug\Task6.pdb

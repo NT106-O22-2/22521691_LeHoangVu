@@ -30,3 +30,36 @@
 4/28/2024 3:53:04 PM: Invalid data format.
 4/28/2024 3:58:21 PM: Server started...
 4/28/2024 3:59:36 PM: Server started...
+5/12/2024 10:01:33 PM: Server started...
+5/12/2024 10:01:55 PM: Invalid IDNCC format.
+5/12/2024 10:08:02 PM: Server started...
+5/12/2024 10:08:28 PM: Invalid data format.
+5/12/2024 10:08:28 PM: Error handling client: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+5/12/2024 10:08:42 PM: Invalid data format.
+5/12/2024 10:08:42 PM: Error handling client: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+5/12/2024 10:08:52 PM: Server stopped.
+5/12/2024 10:08:52 PM: Error starting server: The I/O operation has been aborted because of either a thread exit or an application request.
+5/12/2024 10:08:54 PM: Server stopped.
+5/12/2024 10:10:37 PM: Server started...
+5/12/2024 10:11:12 PM: Invalid data format.
+5/12/2024 10:11:12 PM: Error handling client: Cross-thread operation not valid: Control 'lsvDSMonan' accessed from a thread other than the thread it was created on.
+5/12/2024 10:20:51 PM: Server started...
+5/12/2024 10:21:21 PM: Invalid data format.
+5/12/2024 10:21:22 PM: Error handling client: Cross-thread operation not valid: Control 'lsvDSMonan' accessed from a thread other than the thread it was created on.
+5/12/2024 10:21:45 PM: Server stopped.
+5/12/2024 10:21:46 PM: Error starting server: The I/O operation has been aborted because of either a thread exit or an application request.
+5/12/2024 10:38:23 PM: Server started...
+5/12/2024 10:38:44 PM: Invalid data format.
+5/12/2024 10:38:44 PM: Error handling client: Cross-thread operation not valid: Control 'lsvDSMonan' accessed from a thread other than the thread it was created on.
+5/12/2024 10:41:42 PM: Server started...
+5/12/2024 10:41:43 PM: Error starting server: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+5/12/2024 10:41:46 PM: Error starting server: Not listening. You must call the Start() method before calling this method.
+5/12/2024 10:41:46 PM: Error handling client: The process cannot access the file 'E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\Bai05\bin\Debug\net8.0-windows\server_log.txt' because it is being used by another process.
+5/12/2024 10:41:54 PM: Server stopped.
+5/12/2024 10:42:30 PM: Server started...
+5/12/2024 10:42:32 PM: Error starting server: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+5/12/2024 10:42:36 PM: Invalid data format.
+5/12/2024 10:42:36 PM: Error starting server: Not listening. You must call the Start() method before calling this method.
+5/12/2024 10:42:36 PM: Error handling client: Cross-thread operation not valid: Control 'lsvDSMonan' accessed from a thread other than the thread it was created on.
+5/12/2024 10:42:43 PM: Server stopped.
+5/12/2024 10:42:44 PM: Server stopped.

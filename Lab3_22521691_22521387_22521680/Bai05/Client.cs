@@ -42,27 +42,33 @@ namespace Bai05
                     if (stream != null)
                     {
                         StreamWriter? writer = new StreamWriter(stream);
+                        StreamReader? reader = new StreamReader(stream);
 
-                        // Gửi dữ liệu trước với header "Data"
-                        string data = "Data,MonAn," + txtTenMonAn.Text + "," + txtTenNguoiDung.Text;
+                        // Đọc dữ liệu ảnh từ file
+                        byte[] imageBytes = File.ReadAllBytes(txtHinhAnhName.Text);
+
+                        // Chuyển đổi dữ liệu ảnh thành chuỗi Base64
+                        string imageBase64 = Convert.ToBase64String(imageBytes);
+
+                        // Tạo chuỗi dữ liệu để gửi lên server
+                        string data = "MonAnFromClient," + txtTenMonAn.Text + "," + txtTenNguoiDung.Text + "," + imageBase64;
+
                         if (writer != null)
                         {
                             await writer.WriteLineAsync(data);
                             await writer.FlushAsync();
 
-                            StreamReader? reader = new StreamReader(stream);
                             if (reader != null)
                             {
                                 string? response = await reader.ReadLineAsync();
-                                if (response != null && response == "Data received successfully")
+                                if (response != null)
                                 {
-                                    // gửi ảnh với header "Image"
-                                    writer.WriteLine("Image");
-                                    await writer.FlushAsync();
+                                    MessageBox.Show(response); // Hiển thị phản hồi từ server
 
-                                    byte[] imageBytes = File.ReadAllBytes(txtHinhAnhName.Text);
-                                    await stream.WriteAsync(imageBytes, 0, imageBytes.Length);
-                                    await stream.FlushAsync();
+                                    // Xóa thông tin đã nhập
+                                    txtTenMonAn.Text = string.Empty;
+                                    txtTenNguoiDung.Text = string.Empty;
+                                    txtHinhAnhName.Text = string.Empty;
                                 }
                             }
                         }

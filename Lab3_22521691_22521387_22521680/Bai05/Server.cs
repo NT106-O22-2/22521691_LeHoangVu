@@ -222,6 +222,7 @@ namespace Bai05
                     }
                 }
             }
+
         }
 
         private void lsvDSMonan_SelectedIndexChanged(object sender, EventArgs e)
@@ -282,29 +283,24 @@ namespace Bai05
         {
             try
             {
-                while (true)
-                {
-                    NetworkStream stream = client.GetStream();
-                    StreamReader reader = new StreamReader(stream);
-                    StreamWriter writer = new StreamWriter(stream);
+                NetworkStream stream = client.GetStream();
+                StreamReader reader = new StreamReader(stream);
+                StreamWriter writer = new StreamWriter(stream);
 
-                    string? header = await reader.ReadLineAsync();
-                    if (header.Contains("Data"))
-                    {
-                        if (header != null)
-                        {
-                            ProcessData(header);
-                            await writer.WriteLineAsync("Data received successfully");
-                            await writer.FlushAsync();
-                        }
-                    }
-                    if (header.Contains("Image"))
-                    {
-                        byte[] imageData = ReadImageDataFromStream(stream);
-                        string imageName = GenerateImageName();
-                        string imagePath = SaveImageToFile(imageName, imageData);
-                    }
+                string? data = await reader.ReadLineAsync();
+
+                if (data != null)
+                {
+                    ProcessData(data, stream);
+
+                    // Gọi hàm để lưu dữ liệu vào cơ sở dữ liệu
+                    await SaveDataToDatabase(data);
                 }
+                writer.WriteLine("Data received and processed successfully.");
+                writer.Flush();
+
+                stream.Close();
+                client.Close();
             }
             catch (Exception ex)
             {
@@ -312,23 +308,124 @@ namespace Bai05
             }
         }
 
-        private void ProcessData(string? data)
+        private async Task SaveDataToDatabase(string data)
+        {
+            // Phân tích dữ liệu từ chuỗi nhận được
+            string[] parts = data.Split(',');
+            if (parts.Length >= 4)
+            {
+                string monAnTen = parts[1];
+                string nguoiTen = parts[2];
+                string imageBase64 = parts[3];
+
+                // Giải mã dữ liệu ảnh từ chuỗi Base64
+                byte[] imageBytes = Convert.FromBase64String(imageBase64);
+
+                using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // Insert dữ liệu vào bảng MonAn
+                    string insertMonAn = @"INSERT INTO MonAn (TenMonAn, HinhAnh, IDNCC) VALUES (@TenMonAn, @HinhAnh, @IDNCC)";
+                    using (SQLiteCommand commandMonAn = new SQLiteCommand(insertMonAn, connection))
+                    {
+                        commandMonAn.Parameters.AddWithValue("@TenMonAn", monAnTen);
+                        commandMonAn.Parameters.AddWithValue("@HinhAnh", imageBytes);
+                        commandMonAn.Parameters.AddWithValue("@IDNCC", GetNguoiDungIdByName(nguoiTen));
+
+                        await commandMonAn.ExecuteNonQueryAsync();
+                    }
+                    // Kiểm tra xem người dùng đã tồn tại trong bảng NguoiDung chưa
+                    int nguoiDungId = GetNguoiDungIdByName(nguoiTen);
+                   
+                    {
+                        int maxId;
+                        string queryMaxId = "SELECT MAX(IDNCC) FROM NguoiDung";
+                        using (SQLiteCommand commandMaxId = new SQLiteCommand(queryMaxId, connection))
+                        {
+                            Task<object?> taskMaxId = commandMaxId.ExecuteScalarAsync();
+                            taskMaxId.Wait(); // Đợi hoàn thành
+                            object? maxIdResult = taskMaxId.Result;
+                            maxId = (maxIdResult != null && maxIdResult != DBNull.Value) ? Convert.ToInt32(maxIdResult) : 0;
+                        }
+                        // Nếu người dùng chưa tồn tại, thêm mới vào bảng NguoiDung
+                        if (nguoiDungId == maxId + 1)
+                        {
+                            string insertNguoiDung = @"INSERT INTO NguoiDung (HoVaTen, QuyenHan) VALUES (@HoVaTen, @QuyenHan)";
+                            using (SQLiteCommand commandNguoiDung = new SQLiteCommand(insertNguoiDung, connection))
+                            {
+                                commandNguoiDung.Parameters.AddWithValue("@IDNCC", nguoiDungId);
+                                commandNguoiDung.Parameters.AddWithValue("@HoVaTen", nguoiTen);
+                                commandNguoiDung.Parameters.AddWithValue("@QuyenHan", "User");
+
+                                await commandNguoiDung.ExecuteNonQueryAsync();
+                            }
+                        }
+                        
+                    }
+                    connection.Close();
+
+                    // Hiển thị lại danh sách món ăn và danh sách người dùng sau khi lưu dữ liệu thành công
+                    ShowDSMon();
+                    ShowDSNguoi();
+
+                }
+
+            }
+        }
+
+        private int GetNguoiDungIdByName(string nguoiTen)
+        {
+            int nguoiId = 0;
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                string queryNguoi = "SELECT IDNCC FROM NguoiDung WHERE HoVaTen = @HoVaTen";
+                using (SQLiteCommand commandNguoi = new SQLiteCommand(queryNguoi, connection))
+                {
+                    commandNguoi.Parameters.AddWithValue("@HoVaTen", nguoiTen);
+
+                    Task<object?> task = commandNguoi.ExecuteScalarAsync();
+                    task.Wait(); // Đợi hoàn thành
+                    object? result = task.Result;
+                    //object result = commandNguoi.ExecuteScalar();
+                    if (result != null && int.TryParse(result.ToString(), out nguoiId))
+                    {
+                        nguoiId = Convert.ToInt32(result);
+                    }
+                    else
+                    {
+                        // Nếu không tìm thấy tên người dùng, đặt nguoiId bằng id lớn nhất trong bản người dùng + 1
+                        string queryMaxId = "SELECT MAX(IDNCC) FROM NguoiDung";
+                        using (SQLiteCommand commandMaxId = new SQLiteCommand(queryMaxId, connection))
+                        {
+                            Task<object?> taskMaxId = commandMaxId.ExecuteScalarAsync();
+                            taskMaxId.Wait(); // Đợi hoàn thành
+                            object? maxIdResult = taskMaxId.Result;
+                            int maxId = (maxIdResult != null && maxIdResult != DBNull.Value) ? Convert.ToInt32(maxIdResult) : 0;
+                            nguoiId = maxId + 1;
+                        }
+                    }
+                }
+                connection.Close();
+            }
+            return nguoiId;
+        }
+
+        private void ProcessData(string? data, NetworkStream stream)
         {
             if (data != null)
             {
                 string[] parts = data.Split(',');
-                if (parts.Length == 4 && parts[1] == "MonAn")
+                if (parts.Length <= 3 && parts[0] == "MonAn")
                 {
-                    string tenMonAn = parts[2];
-                    int idNCC;
-                    if (int.TryParse(parts[3], out idNCC))
-                    {
-                        DatabaseHelper.InsertMonAn ? (tenMonAn, null, idNCC);
-                    }
-                    else
-                    {
-                        AppendLog("Invalid IDNCC format.");
-                    }
+                    string tenMonAn = parts[1];
+                    int idNCC = int.Parse(parts[2]);
+                    byte[] imageData = ReadImageDataFromStream(stream);
+                    string imageName = GenerateImageName();
+                    string imagePath = SaveImageToFile(imageName, imageData);
+
+                    DatabaseHelper.InsertMonAn(tenMonAn, imagePath, idNCC);
                 }
                 else
                 {
@@ -390,46 +487,6 @@ namespace Bai05
                 AppendLog($"Error stopping server: {ex.Message}");
             }
         }
-
-        /*
-        void RanDomFood()
-        {
-            using (var sqlite = new SQLiteConnection(@"Data Source=" + dataPath))
-            {
-                sqlite.Open();
-                string sqlCount = "SELECT COUNT(*) FROM MonAn";
-                using (var commandCount = new SQLiteCommand(sqlCount, sqlite))
-                {
-                    int count = Convert.ToInt32(commandCount.ExecuteScalar());
-
-                    // Nếu không có bản ghi nào, trả về null
-                    if (count == 0)
-                        return;
-
-                    Random random = new Random();
-                    int randomNumber = random.Next(count) + 1;
-
-                    // Truy vấn lấy tên món,tên người và ảnh
-                    string sqlGetImage = "SELECT HinhAnh, TenMonAn, HoVaTen FROM MonAn, NguoiDung WHERE IDMonAn = @Id AND MonAn.IDNCC = NguoiDung.IDNCC";
-                    using (var getCmd = new SQLiteCommand(sqlGetImage, sqlite))
-                    {
-                        getCmd.Parameters.AddWithValue("@Id", randomNumber);
-
-                        using (var reader = getCmd.ExecuteReader())
-                        {
-                            //Đọc dữ liệu và xuất ra
-                            if (reader.Read())
-                            {
-                                byte[] imageBytes = (byte[])reader["HinhAnh"];
-                                foodPic.Image = Image.FromStream(new MemoryStream(imageBytes));
-
-                                providerName.Text = (string)reader["TenMonAn"] + ", đóng góp: " + (string)reader["HoVaTen"];
-                            }
-                        }
-                    }
-                }
-            }
-        }*/
-
+       
     }
 }

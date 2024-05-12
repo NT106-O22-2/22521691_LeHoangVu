@@ -72,3 +72,22 @@ D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoang
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.pdb
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.genruntimeconfig.cache
 D:\UIT\Nam_2\HK2\Lập trình mạng căn bản - NT106.O22\Lab\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\ref\Bai01.dll
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\bin\Debug\net8.0-windows\Bai01.exe
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\bin\Debug\net8.0-windows\Bai01.deps.json
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\bin\Debug\net8.0-windows\Bai01.runtimeconfig.json
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\bin\Debug\net8.0-windows\Bai01.dll
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\bin\Debug\net8.0-windows\Bai01.pdb
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.Client.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Init.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.Server.resources
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.csproj.GenerateResource.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.AssemblyInfoInputs.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.AssemblyInfo.cs
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.csproj.CoreCompileInputs.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.sourcelink.json
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.dll
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\refint\Bai01.dll
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.pdb
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\Bai01.genruntimeconfig.cache
+E:\LTM\22521691_LeHoangVu\Lab3_22521691_22521387_22521680\WinFormsApp1\obj\Debug\net8.0-windows\ref\Bai01.dll
