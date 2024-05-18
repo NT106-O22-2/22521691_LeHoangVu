@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jI7f5bdVzK1aOTZulFdAMDJDEnk+TXp9keaA2ciz+dp9KQSwUF3B75XZQm/M3+2iX6rQIULGlW/wsclBlYugEg==",
+  "success": true,
+  "projectFilePath": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai01\\Bai01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\mailkit\\4.6.0\\mailkit.4.6.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\mimekit\\4.6.0\\mimekit.4.6.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

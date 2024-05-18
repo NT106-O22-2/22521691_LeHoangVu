@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8507E-B839-4B4E-A62A-F44448241708}|Bai01\\Bai01.csproj|e:\\ltm\\22521691_lehoangvu\\lab05\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78D8507E-B839-4B4E-A62A-F44448241708}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8507E-B839-4B4E-A62A-F44448241708}|Bai01\\Bai01.csproj|e:\\ltm\\22521691_lehoangvu\\lab05\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8507E-B839-4B4E-A62A-F44448241708}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai01\\Form1.cs",
+              "RelativeDocumentMoniker": "Bai01\\Form1.cs",
+              "ToolTip": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai01\\Form1.cs",
+              "RelativeToolTip": "Bai01\\Form1.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAhwDQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:18:18.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai01\\Form1.cs",
+              "RelativeDocumentMoniker": "Bai01\\Form1.cs",
+              "ToolTip": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai01\\Form1.cs [Design]",
+              "RelativeToolTip": "Bai01\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T10:01:00.247Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
