@@ -271,23 +271,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MSI\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\legia\\.nuget\\packages\\": {},
+    "G:\\Visual studio\\Root\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
+      "projectUniqueName": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
       "projectName": "Bai02",
-      "projectPath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
-      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\obj\\",
+      "projectPath": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
+      "packagesPath": "C:\\Users\\legia\\.nuget\\packages\\",
+      "outputPath": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "G:\\Visual studio\\Root\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\legia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

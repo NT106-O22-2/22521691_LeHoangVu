@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1BVAZNNVfQ4uccnFa13i4M2rKl2KTrvZQuuTigoCBvbj6NPaFPLl1ptYSzzL8z526rpbJnoHuRIffYoT/Lfp8g==",
+  "dgSpecHash": "hDlOm3HceGRzjTAn4Fhh+3ymGhaxLWbc6Hl3ZPE1g8BpYnp7C98peM1B5mFyQmDe49t4LC4qjFjpqWu8lwmTqg==",
   "success": true,
-  "projectFilePath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
+  "projectFilePath": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai02\\Bai02.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MSI\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\mailkit\\4.6.0\\mailkit.4.6.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\mimekit\\4.6.0\\mimekit.4.6.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
+    "C:\\Users\\legia\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
+    "C:\\Users\\legia\\.nuget\\packages\\mailkit\\4.6.0\\mailkit.4.6.0.nupkg.sha512",
+    "C:\\Users\\legia\\.nuget\\packages\\mimekit\\4.6.0\\mimekit.4.6.0.nupkg.sha512",
+    "C:\\Users\\legia\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
+    "C:\\Users\\legia\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
