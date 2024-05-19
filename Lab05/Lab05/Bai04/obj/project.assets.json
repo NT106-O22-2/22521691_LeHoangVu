@@ -271,23 +271,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
+    "C:\\Users\\MSI\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\Bai04.csproj",
+      "projectUniqueName": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\Bai04.csproj",
       "projectName": "Bai04",
-      "projectPath": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\Bai04.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "E:\\LTM\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\obj\\",
+      "projectPath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\Bai04.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab05\\Lab05\\Bai04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -344,7 +344,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
