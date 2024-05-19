@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|solutionrelative:bai4\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|i:\\22521691_lehoangvu\\lab05\\lab05\\bai4\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|solutionrelative:bai4\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|i:\\22521691_lehoangvu\\lab05\\lab05\\bai4\\checkmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\checkmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|solutionrelative:bai4\\checkmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|i:\\22521691_lehoangvu\\lab05\\lab05\\bai4\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C7FBBBF6-3DB8-4052-B15A-95B1445FE5A3}|bai4\\Bai4.csproj|solutionrelative:bai4\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "sendmail.cs [Design]",
               "DocumentMoniker": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\sendmail.cs",
               "RelativeDocumentMoniker": "bai4\\sendmail.cs",
@@ -46,19 +46,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "checkmail.cs [Design]",
               "DocumentMoniker": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\checkmail.cs",
               "RelativeDocumentMoniker": "bai4\\checkmail.cs",
               "ToolTip": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\checkmail.cs [Design]",
               "RelativeToolTip": "bai4\\checkmail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T20:36:58.168Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-19T20:36:58.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "bai4.cs [Design]",
               "DocumentMoniker": "I:\\22521691_LeHoangVu\\Lab05\\Lab05\\bai4\\bai4.cs",
               "RelativeDocumentMoniker": "bai4\\bai4.cs",

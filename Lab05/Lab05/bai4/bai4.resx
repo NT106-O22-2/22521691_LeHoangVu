@@ -618,9 +618,6 @@
   <data name="passTb.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="passTb.Text" xml:space="preserve">
-    <value>ksgdfbnpjhgpstso</value>
-  </data>
   <data name="&gt;&gt;passTb.Name" xml:space="preserve">
     <value>passTb</value>
   </data>
@@ -646,7 +643,7 @@
     <value>2</value>
   </data>
   <data name="userTb.Text" xml:space="preserve">
-    <value>legiahoangthien170504@gmail.com</value>
+    <value>@gmail.com</value>
   </data>
   <data name="&gt;&gt;userTb.Name" xml:space="preserve">
     <value>userTb</value>
