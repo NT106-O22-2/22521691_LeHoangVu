@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D7PkSK83OQvi1LC7VqadKs4lNdUoeALTYsTrgE5/JSFD+sdEoHj+Yxsaj1loEdGwNGQ4zAf4yGeESLFvzauEIw==",
+  "dgSpecHash": "E1qNLyMEEURiXhdDTIl+ChNAjzBUc86FPHVPo6dY/4O3oJ5i8c6XjkGGswlJ01BG9Br033m+DF6QXL6sMmfW1w==",
   "success": true,
-  "projectFilePath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\Lab06\\Bai01\\Lab06\\Lab06.csproj",
+  "projectFilePath": "D:\\UIT\\Nam_2\\HK2\\Lập trình mạng căn bản - NT106.O22\\Lab\\22521691_LeHoangVu\\Lab06\\Bai01\\Lab06\\Lab06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
