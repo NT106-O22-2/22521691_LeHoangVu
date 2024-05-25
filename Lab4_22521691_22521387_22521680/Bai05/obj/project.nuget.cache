@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wdSHqVlHQKlKJ2o43NwgToTwir8btsUf3O3cuBvVPz4fOgq55mIZsWSSZZiPsWI/ZF3Q7W9keGFHUD8AGV+EWg==",
+  "success": true,
+  "projectFilePath": "E:\\LTM\\22521691_LeHoangVu\\Lab4_22521691_22521387_22521680\\Bai05\\Bai05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.web.webview2\\1.0.2478.35\\microsoft.web.webview2.1.0.2478.35.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

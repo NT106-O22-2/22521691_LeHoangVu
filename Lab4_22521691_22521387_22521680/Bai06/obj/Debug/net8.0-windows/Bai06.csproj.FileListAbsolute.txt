@@ -1,0 +1,41 @@
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Bai06.exe
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Bai06.deps.json
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Bai06.runtimeconfig.json
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Bai06.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Bai06.pdb
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.Form1.resources
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.GenerateResource.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.AssemblyInfoInputs.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.AssemblyInfo.cs
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.CoreCompileInputs.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\refint\Bai06.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.pdb
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.genruntimeconfig.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\ref\Bai06.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\HtmlAgilityPack.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.AssemblyReference.cache
+D:\Lập trình mạng căn bản\ThucHanh\Lab04\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.Up2Date
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Bai06.exe
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Bai06.deps.json
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Bai06.runtimeconfig.json
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Bai06.dll
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Bai06.pdb
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\HtmlAgilityPack.dll
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.AssemblyReference.cache
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.Form1.resources
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.GenerateResource.cache
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.GeneratedMSBuildEditorConfig.editorconfig
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.AssemblyInfoInputs.cache
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.AssemblyInfo.cs
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.CoreCompileInputs.cache
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.sourcelink.json
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.csproj.Up2Date
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.dll
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\refint\Bai06.dll
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.pdb
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\Bai06.genruntimeconfig.cache
+E:\LTM\22521691_LeHoangVu\Lab4_22521691_22521387_22521680\Bai06\obj\Debug\net8.0-windows\ref\Bai06.dll
